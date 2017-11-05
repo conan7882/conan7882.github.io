@@ -54,32 +54,6 @@ Linux, OSX
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Research Experience
-<table class="table table-hover">
-<tr>
-  <td class='col-md-3'>Aug 2012 - Present</td>
-  <td>
-    <strong>Active Robotic Sensing (ARoS) Laboratory, NCSU</strong>, Dr. Edgar Lobaton <br>
-    Computer vision and machine learning
-  </td>
-</tr>
-<tr>
-  <td class='col-md-3'>Feb 2016 - Dec 2016</td>
-  <td>
-    <strong>Laboratory for Analytic Sciences and Department of English, NCSU</strong>, Dr. Edgar Lobaton <br>
-    Applications of computer vision algorithms
-  </td>
-</tr>
-<tr>
-  <td class='col-md-3'>June 2008 - May 2011</td>
-  <td>
-    <strong>University of Electronic Science and Technology of China</strong>, Dr. Hongyang Yu <br>
-    Streaming media
-  </td>
-</tr>
-</table>
-
-
 ## <i class="fa fa-chevron-right"></i> Selected Projects
 <table class="table table-hover">
 <tr>
@@ -159,7 +133,7 @@ Linux, OSX
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Research Projects
+## <i class="fa fa-chevron-right"></i> Research Experience
 <table class="table table-hover">
 <tr>
 <td class="col-md-3"><a><img src='images/projects/forams.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>

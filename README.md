@@ -1,3 +1,8 @@
+# About 
+This is my personal website. It is originally forked from [bamos/bamos.github.io](https://github.com/bamos/bamos.github.io).
+
+## Below are the original README
+
 [![Build Status](https://travis-ci.org/bamos/bamos.github.io.svg?branch=master)](https://travis-ci.org/bamos/bamos.github.io)
 
 # About
