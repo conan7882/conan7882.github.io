@@ -80,19 +80,6 @@ Linux, OSX
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Teaching Experience
-<table class="table table-hover">
-<tr>
-  <td class='col-md-1'>F2016</td>
-  <td><strong>Applications of Graphs and Graphical Models</strong> (NCSU ECE/CSC 792), TA</td>
-</tr>
-<tr>
-  <td class='col-md-1'>F2015</td>
-  <td><strong>Computer Systems Programming</strong> (NCSU ECE 209), TA</td>
-</tr>
-</table>
-
-
 ## <i class="fa fa-chevron-right"></i> Selected Projects
 <table class="table table-hover">
 <tr>
@@ -406,4 +393,17 @@ Image registration aims to identify the mapping between corresponding locations 
 </tr>
 
 
+</table>
+
+
+## <i class="fa fa-chevron-right"></i> Teaching Experience
+<table class="table table-hover">
+<tr>
+  <td class='col-md-1'>F2016</td>
+  <td><strong>Applications of Graphs and Graphical Models</strong> (NCSU ECE/CSC 792), TA</td>
+</tr>
+<tr>
+  <td class='col-md-1'>F2015</td>
+  <td><strong>Computer Systems Programming</strong> (NCSU ECE 209), TA</td>
+</tr>
 </table>
