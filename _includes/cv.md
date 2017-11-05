@@ -54,6 +54,45 @@ Linux, OSX
 </table>
 
 
+## <i class="fa fa-chevron-right"></i> Research Experience
+<table class="table table-hover">
+<tr>
+  <td class='col-md-3'>Aug 2012 - Present</td>
+  <td>
+    <strong>Active Robotic Sensing (ARoS) Laboratory, NCSU</strong>, Dr. Edgar Lobaton <br>
+    Computer vision and machine learning
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'>Feb 2016 - Dec 2016</td>
+  <td>
+    <strong>Laboratory for Analytic Sciences and Department of English, NCSU</strong>, Dr. Edgar Lobaton <br>
+    Applications of computer vision algorithms
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'>June 2008 - May 2011</td>
+  <td>
+    <strong>University of Electronic Science and Technology of China</strong>, Dr. Hongyang Yu <br>
+    Streaming media
+  </td>
+</tr>
+</table>
+
+
+## <i class="fa fa-chevron-right"></i> Teaching Experience
+<table class="table table-hover">
+<tr>
+  <td class='col-md-1'>F2016</td>
+  <td><strong>Applications of Graphs and Graphical Models</strong> (NCSU ECE/CSC 792), TA</td>
+</tr>
+<tr>
+  <td class='col-md-1'>F2015</td>
+  <td><strong>Computer Systems Programming</strong> (NCSU ECE 209), TA</td>
+</tr>
+</table>
+
+
 ## <i class="fa fa-chevron-right"></i> Selected Projects
 <table class="table table-hover">
 <tr>
@@ -223,18 +262,6 @@ Linux, OSX
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Research Experience
-<table class="table table-hover">
-<tr>
-  <td class='col-md-3'>Aug 2012 - Present</td>
-  <td>
-    <strong>North Carolina State University</strong>, Dr. Edgar Lobaton <br>
-    computer vision and machine learning
-  </td>
-</tr>
-</table>
-
-
 ## <i class="fa fa-chevron-right"></i> Selected Publications <a href="https://github.com/bamos/cv/blob/master/publications/conference.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
 <!-- <a href="https://scholar.google.com/citations?user=" class="btn btn-primary" style="padding: 0.3em;">
@@ -379,17 +406,4 @@ Image registration aims to identify the mapping between corresponding locations 
 </tr>
 
 
-</table>
-
-
-## <i class="fa fa-chevron-right"></i> Teaching Experience
-<table class="table table-hover">
-<tr>
-  <td class='col-md-1'>F2016</td>
-  <td><strong>Applications of Graphs and Graphical Models</strong> (NCSU ECE/CSC 792), TA</td>
-</tr>
-<tr>
-  <td class='col-md-1'>F2015</td>
-  <td><strong>Computer Systems Programming</strong> (NCSU ECE 209), TA</td>
-</tr>
 </table>
