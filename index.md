@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Qian Ge
 ---
 <div class="blurb">
