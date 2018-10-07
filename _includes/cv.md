@@ -108,7 +108,7 @@ Linux, OSX
     
 <div>
 <ul> 
-    <li>Implementation of Deep Convolutional Generative Adversarial Networks and experiments on MNIST and CIFAR10 dataset [<a href='http://github.com/conan7882/tensorflow-DCGAN' target='_blank'>code</a>] <li>Fully Convolutional Network for image segmentation [<a href='http://github.com/conan7882/tensorflow-FCN' target='_blank'>code</a>] <li>Very Deep Convolutional Networks for Large-Scale Image Recognition (VGG) [<a href='http://github.com/conan7882/VGG-tensorflow' target='_blank'>code</a>] </li>
+    <li>Implementation of Deep Convolutional Generative Adversarial Networks and experiments on MNIST and CIFAR10 dataset [<a href='http://github.com/conan7882/tensorflow-DCGAN' target='_blank'>code</a>] </li> <li>Fully Convolutional Network for image segmentation [<a href='http://github.com/conan7882/tensorflow-FCN' target='_blank'>code</a>] </li> <li>Very Deep Convolutional Networks for Large-Scale Image Recognition (VGG) [<a href='http://github.com/conan7882/VGG-tensorflow' target='_blank'>code</a>] </li>
 </ul>
 </div>
     <br>
@@ -123,7 +123,7 @@ Linux, OSX
     
 <div>
 <ul> 
-    <li>Leaf classification based on visual features using PCA and k-means (2011) <li>Face recognition based on eigenface using multilayer perceptron (MLP) (2012) <li>Human activity recognition using hidden Markov model (HMM) (2015) </li>
+    <li>Leaf classification based on visual features using PCA and k-means (2011) </li> <li>Face recognition based on eigenface using multilayer perceptron (MLP) (2012) </li> <li>Human activity recognition using hidden Markov model (HMM) (2015) </li>
 </ul>
 </div>
     <br>
@@ -133,7 +133,7 @@ Linux, OSX
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Research Projects
+## <i class="fa fa-chevron-right"></i> Research Experience
 <table class="table table-hover">
 <tr>
 <td class="col-md-3"><a><img src='images/projects/forams.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
@@ -223,19 +223,9 @@ Linux, OSX
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Research Experience
-<table class="table table-hover">
-<tr>
-  <td class='col-md-3'>Aug 2012 - Present</td>
-  <td>
-    <strong>North Carolina State University</strong>, Dr. Edgar Lobaton <br>
-    computer vision and machine learning
-  </td>
-</tr>
-</table>
+## <i class="fa fa-chevron-right"></i> Selected Publications 
 
-
-## <i class="fa fa-chevron-right"></i> Selected Publications <a href="https://github.com/bamos/cv/blob/master/publications/conference.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+<!-- <a href="https://github.com/bamos/cv/blob/master/publications/conference.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a> -->
 
 <!-- <a href="https://scholar.google.com/citations?user=" class="btn btn-primary" style="padding: 0.3em;">
   <i class="ai ai-google-scholar"></i> Google Scholar
