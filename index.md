@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
+		<title>Qian Ge</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
@@ -16,14 +16,14 @@
 		</nav>
 		<div class="container">
     		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
+        		<h1>Qian Ge!</h1>
+				<p>I am an Eletrical Engineering Ph.D. student at North Carolina State University. I am working with <a href="http://www.ece.ncsu.edu/people/ejlobato/">Dr. Edgar Lobaton</a> at <a href="http://research.ece.ncsu.edu/aros//">Active Robotic Sensing (ARoS) Laboratory</a> on computer vision and machine learning.</a></p>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
 		<footer>
     		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+        		<li><a href="mailto:qge2@ncsu.com">email</a></li>
+        		<li><a href="https://github.com/conan7882">github.com/conan7882</a></li>
 			</ul>
 		</footer>
 	</body>
