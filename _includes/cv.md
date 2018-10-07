@@ -147,7 +147,7 @@ Linux, OSX
     
 <div id="forams" style="text-align: justify; display: none" markdown="1">
 <ul> 
-    <li>Developed a coarse-to-fine edge detection strategy to detect blurred and low quality edges between forams chambers with similar texture by using random forest and deep neural networks.</li> <li>This approach is able to achieve a high accuracy (88%) with a small training set.</li> <li>Leaded the creation of a forams image dataset which contains 1437 forams samples.</li> <li>Currently working on robust forams segmentation by combining deep neural networks and topological data analysis.</li>
+    <li>Developed a coarse-to-fine fully convolutional edge detection network to find blurred and low quality edges between forams chambers with similar texture by using several edge detection models iteratively (achieved $88\%$ edge accuracy with a small training set of 100 labeled edge images).</li> <li>Designed a topological based metric for hard negative mining to improve the efficiency of training and reduce gaps on detected edges (improved edge-based region segmentation recall from $84\%$ to $88\%$).</li> <li>Leaded the creation of a forams image dataset which contains 1437 forams samples and 457 manually segmentation samples. And generated synthetic images refined by GANs for data augmentation.</li>
 </ul>
 </div>
 </td>
