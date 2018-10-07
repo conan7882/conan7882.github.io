@@ -36,21 +36,21 @@
 <tr>
   <td class='col-md-2'>Languages</td>
   <td markdown="1">
-Python, C, C++, HTML, Java, JavaScript, LaTeX, Make, Bash
+Python, MATLAB, C/C++, LaTeX
   </td>
 </tr>
 <tr>
   <td class='col-md-2'>Frameworks/Toolbox</td>
   <td markdown="1">
-NumPy, TensorFlow, SciPy, scikit-learn, OpenCV
+TensorFlow, NumPy, SciPy, scikit-learn, OpenCV
   </td>
 </tr>
-<tr>
+<!-- <tr>
   <td class='col-md-2'>Systems</td>
   <td markdown="1">
 Linux, OSX
   </td>
-</tr>
+</tr> -->
 </table>
 
 
@@ -374,6 +374,10 @@ Image registration aims to identify the mapping between corresponding locations 
 
 ## <i class="fa fa-chevron-right"></i> Teaching Experience
 <table class="table table-hover">
+<tr>
+  <td class='col-md-1'>F2018</td>
+  <td><strong>Neural Networks</strong> (NCSU ECE 542), TA</td>
+</tr>
 <tr>
   <td class='col-md-1'>F2016</td>
   <td><strong>Applications of Graphs and Graphical Models</strong> (NCSU ECE/CSC 792), TA</td>
