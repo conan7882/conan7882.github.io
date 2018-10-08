@@ -2,8 +2,7 @@
 layout: index
 title: Qian Ge
 ---
-<!-- {% include cv.md %}
--->
+<!-- {% include cv.md %} -->
 
 ---
 
