@@ -85,12 +85,73 @@ Linux, OSX
     <li>Entire training pipeline was implemented and easy to be customized, including bounding box clustering, data augmentation and multi-scale training.
     </li>
     <li>
-    Detailed instructions and a ready-to-use pre-trained model were provided
+    Detailed instructions and a ready-to-use pre-trained model were provided.
     </li>
 </ul>
 </div>
     
 [<a href='https://github.com/conan7882/yolov3' target='_blank'>code</a>] <br>
+    
+</td>
+</tr>
+
+<tr>
+<td class="col-md-3"><a><img src='images/projects/gans.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
+<td>
+<strong>Generative Adversarial Networks for Human Face Images</strong><br>
+<div>
+<ul> 
+    <li>ImplementedDCGAN,LSGANandInfoGAN, and applied on CelebA face dataset for comparison.
+    </li>
+    <li>Visualized the generated images during training and the interpolation of the learned latent space.
+    </li>
+    <li>
+    Demonstrated that InfoGAN can learn interpretable and disentangled representations in an unsupervised manner.
+    </li>
+</ul>
+</div>
+    
+[<a href='https://github.com/conan7882/tf-gans' target='_blank'>code</a>] <br>
+    
+</td>
+</tr>
+
+<tr>
+<td class="col-md-3"><a><img src='images/projects/aae.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
+<td>
+<strong>Adversarial Autoencoders for Variational Inference and Semi-Supervised Learning</strong><br>
+<div>
+<ul> 
+    <li>Implemented the adversarial autoencoders (AAE) which utilize GAN as a variational inference algorithm.
+    </li>
+    <li>Showed that AAE can impose distributions without having the explicit functional form of the distributions.
+    </li>
+    <li>
+    Applied for semi-supervised learning and disentangling style and content of images.
+    </li>
+</ul>
+</div>
+    
+[<a href='https://github.com/conan7882/adversarial-autoencoders' target='_blank'>code</a>] <br>
+    
+</td>
+</tr>
+
+<tr>
+<td class="col-md-3"><a><img src='images/projects/trans.gif'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
+<td>
+<strong>Image Recognition Using Recurrent Attention Model</strong><br>
+<div>
+<ul> 
+    <li>Implemented and trained a recurrent visual attention model using REINFORCE algorithm for image recognition (achieved 97.82 accuracy on 60 x 60 translated MNIST).
+    </li>
+    <li><a href='https://github.com/conan7882/recurrent-attention-model#result' target='_blank'>Visualized</a> the attention regions during inference, and
+showed that the model can learn to select the next location in the image to focus on and make a correct recognition prediction by only seeing the selected regions.
+    </li>
+</ul>
+</div>
+    
+[<a href='https://github.com/conan7882/recurrent-attention-model' target='_blank'>code</a>] <br>
     
 </td>
 </tr>
