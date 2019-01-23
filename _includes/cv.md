@@ -77,12 +77,16 @@ Linux, OSX
 <tr>
 <td class="col-md-3"><a><img src='images/projects/yolo.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
-    <strong>YOLOv3 for Object Detection</strong><br>
-    <div>
+<strong>YOLOv3 for Object Detection</strong><br>
+<div>
 <ul> 
-    <li>TensorFlow implementation of YOLOv3 for inference and training, which supports custom dataset
+    <li>TensorFlow implementation of YOLOv3 for inference and training, which supports custom dataset.
     </li>
-    <li>Entire training pipeline was implemented and easy to be customized, including bounding box clustering, data augmentation and multi-scale training
+    <li>Entire training pipeline was implemented and easy to be customized, including bounding box clustering, data augmentation and multi-scale training.
+    </li>
+    <li>
+    Detailed instructions and a ready-to-use pre-trained model were provided
+    </li>
 </ul>
 </div>
     
