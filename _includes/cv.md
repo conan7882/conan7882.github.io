@@ -90,15 +90,8 @@ Linux, OSX
 </ul>
 </div>
     
+[<a href='https://github.com/conan7882/yolov3' target='_blank'>code</a>] <br>
     
-[<a href='javascript: none' 
-    onclick='$("#cnnviz").toggle()'>details</a>] [<a href='http://github.com/conan7882/CNN-Visualization' target='_blank'>code</a>] <br>
-    
-<div id="cnnviz" style="text-align: justify; display: none" markdown="1">
-<ul> 
-    <li>Visulization of VGG19 attentions for different image classes using CAM, Grad-CAM and Guided back propagation.</li> <li>API</li>
-</ul>
-</div>
 </td>
 </tr>
 
