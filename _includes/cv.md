@@ -5,7 +5,7 @@
 
 <table class="table table-hover">
   <tr>
-    <td class="col-md-3">Aug 2011 - Present</td>
+    <td class="col-md-3">May 2019 (expected)</td>
     <td>
         <strong>Ph.D. in Eletrical Engineering</strong>
         <br>
@@ -13,7 +13,7 @@
     </td>
   </tr>
   <tr>
-    <td class="col-md-3">Aug 2008 - May 2011</td>
+    <td class="col-md-3">June 2011</td>
     <td>
         <strong>M.S. in Eletrical Engineering</strong>
         <br>
@@ -21,7 +21,7 @@
     </td>
   </tr>
   <tr>
-    <td class="col-md-3">Aug 2004 - May 2008</td>
+    <td class="col-md-3">July 2008</td>
     <td>
         <strong>B.S. in Eletrical Engineering</strong>
         <br>
@@ -34,15 +34,15 @@
 ## <i class="fa fa-chevron-right"></i> Skills
 <table class="table table-hover">
 <tr>
-  <td class='col-md-2'>Languages</td>
+  <td class='col-md-2'>Computer Languages</td>
   <td markdown="1">
-Python, MATLAB, C/C++, LaTeX
+Python, MATLAB, C/C++
   </td>
 </tr>
 <tr>
   <td class='col-md-2'>Frameworks/Toolbox</td>
   <td markdown="1">
-TensorFlow, NumPy, SciPy, scikit-learn, OpenCV
+TensorFlow, NumPy, Scikit-learn, OpenCV, Git
   </td>
 </tr>
 <!-- <tr>
@@ -54,9 +54,9 @@ Linux, OSX
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Selected Projects
+## <i class="fa fa-chevron-right"></i> Selected Open Source Projects
 <table class="table table-hover">
-<tr>
+<!--<tr>
 <td class="col-md-3"><a><img src='images/projects/deepvision.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
     <strong>A TensorFlow API for Deep Learning based Computer Vision Algorithms (TensorCV)</strong><br>
@@ -72,7 +72,33 @@ Linux, OSX
 </ul>
 </div>
 </td>
+</tr>-->
+
+<tr>
+<td class="col-md-3"><a><img src='images/projects/yolo.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
+<td>
+    <strong>YOLOv3 for Object Detection</strong><br>
+    <div>
+<ul> 
+    <li>TensorFlow implementation of YOLOv3 for inference and training, which supports custom dataset
+    </li>
+    <li>Entire training pipeline was implemented and easy to be customized, including bounding box clustering, data augmentation and multi-scale training
+</ul>
+</div>
+    
+    
+[<a href='javascript: none' 
+    onclick='$("#cnnviz").toggle()'>details</a>] [<a href='http://github.com/conan7882/CNN-Visualization' target='_blank'>code</a>] <br>
+    
+<div id="cnnviz" style="text-align: justify; display: none" markdown="1">
+<ul> 
+    <li>Visulization of VGG19 attentions for different image classes using CAM, Grad-CAM and Guided back propagation.</li> <li>API</li>
+</ul>
+</div>
+</td>
 </tr>
+
+
 <tr>
 <td class="col-md-3"><a><img src='images/projects/cnnviz.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
