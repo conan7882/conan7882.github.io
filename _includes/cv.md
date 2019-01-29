@@ -206,7 +206,7 @@ Linux, OSX
     <div>
     <ul>
     <li>
-    Implemented the fast style transfer to transfer images and videos to a specific artistic style in nearly real-time. Provided <a href='https://github.com/conan7882/fast-style-transfer#preparation' target='_blank'>five pre-trained models</a> of different styles trained on COCO dataset which can be immediately used for image and video style transfer.
+    Implemented the fast style transfer to transfer images and videos to a specific artistic style in nearly real-time. Provided <a href='https://github.com/conan7882/fast-style-transfer#result' target='_blank'>five pre-trained models</a> of different styles trained on COCO dataset which can be immediately used for image and video style transfer.
     </li>
     <li>
     Implemented the neural style transfer for image style transfer.
@@ -215,12 +215,12 @@ Linux, OSX
     </ul>
     </div>
     
-    [<a href='http://github.com/conan7882/art_style_transfer_TensorFlow' target='_blank'>fast style code</a>] [<a href='https://github.com/conan7882/fast-style-transfer' target='_blank'>neural style code</a>]<br>
+    [<a href='http://github.com/conan7882/fast-style-transfer' target='_blank'>fast style</a>] [<a href='https://github.com/conan7882/art_style_transfer_TensorFlow' target='_blank'>neural style</a>]<br>
 </td>
 </tr>
 
 
-<tr>
+<!--<tr>
 <td class="col-md-3"><a><img src='images/projects/tensorproj.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
     <strong>Other TensorFlow Projects</strong><br>
@@ -234,11 +234,11 @@ Linux, OSX
     <br>
     
 </td>
-</tr>
+</tr>-->
 
 
 
-<tr>
+<!--<tr>
 <td class="col-md-3"><a><img src='images/projects/courseproj.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
     <strong>Selected Course Projects</strong><br>
@@ -252,7 +252,7 @@ Linux, OSX
 <br>
     
 </td>
-</tr>
+</tr>-->
 
 
 
@@ -261,11 +261,17 @@ Linux, OSX
 
 ## <i class="fa fa-chevron-right"></i> Research Experience
 <table class="table table-hover">
+
+
 <tr>
 <td class="col-md-3"><a><img src='images/projects/forams.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
-    <strong>A Visual System for Autonomous Foraminifera Identification</strong><br>
-    Foraminifera (forams) are single-celled marine organisms, which are usually less than 1 mm in diameter.<br>
+    <strong>A Visual System for Autonomous Foraminifera Identification</strong><br>    
+    The goal of this project is to develop an automated system for identification of foraminifera (single-celled organisms with shells). 
+    Foraminifera are common in many modern and ancient environments, and as such have become invaluable tools for petroleum exploration, biostratigraphy, paleoecology and paleobiogeography. 
+    Currently undergraduate workers are often employed to hand pick several thousands of specimens from ocean sediments for each study, which is tedious and time consuming. 
+    By automating the bulk of the identification process, user expertise can be focused on verification and identification of subtle differences.
+    <br>
     
     
 [<a href='javascript: none' 
@@ -273,7 +279,21 @@ Linux, OSX
     
 <div id="forams" style="text-align: justify; display: none" markdown="1">
 <ul> 
-    <li>Developed a coarse-to-fine fully convolutional edge detection network to find blurred and low quality edges between forams chambers with similar texture by using several edge detection models iteratively (achieved $88\%$ edge accuracy with a small training set of 100 labeled edge images).</li> <li>Designed a topological based metric for hard negative mining to improve the efficiency of training and reduce gaps on detected edges (improved edge-based region segmentation recall from $84\%$ to $88\%$).</li> <li>Leaded the creation of a forams image dataset which contains 1437 forams samples and 457 manually segmentation samples. And generated synthetic images refined by GANs for data augmentation.</li>
+    <li>
+    	Leaded the creation of a forams image dataset containing 1437 samples and 457 manually segmentation samples. Created synthetic images refined by GANs for data augmentation.
+    </li>
+    <li>
+    	Developed a coarse-to-fine CNN-based edge detection pipeline which iteratively applies edge detection modules on predicted edge maps.
+Achieved a high accuracy on the forams dataset for finding vague edges between forams chambers with similar texture (0.91 edge F1 score).
+    </li>
+    <li>
+    	Designed a metric to measure the structural difference between two edge maps. 
+Developed a training process utilizing this metric to train an edge detection network which focuses on preserving topological structures of edges.
+Improved the performance on both edge detection and edge-based segmentation (improved edge F1 score from 0.91 to 0.93 and segmentation IoU from 0.80 to 0.82).
+    </li>
+    <li>
+    	Built a transfer learning process for identification of six forams species using features extracted from pre-trained VGG, Inception and ResNet.
+    </li>
 </ul>
 </div>
 </td>
@@ -287,6 +307,9 @@ Linux, OSX
     
 [<a href='javascript: none' 
     onclick='$("#consensus").toggle()'>details</a>] [<a href='https://research.ece.ncsu.edu/aros/project/pattern-analysis/' target='_blank'>web</a>] <br>
+    
+    
+    
     
 <div id="consensus" style="text-align: justify; display: none" markdown="1">
 <ul> 
