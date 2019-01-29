@@ -112,6 +112,7 @@ Linux, OSX
 		<ul> 
     	<li>
     		Provided an implemented of adversarial autoencoders (AAE) which utilize GAN framework as a <a href='https://github.com/conan7882/adversarial-autoencoders#result' target='_blank'>variational inference</a> algorithm.
+    	</li>
     	<li>
     		Applied for <a href='https://github.com/conan7882/adversarial-autoencoders#result-3' target='_blank'>semi-supervised learning</a> and <a href='https://github.com/conan7882/adversarial-autoencoders#result-2' target='_blank'>disentangling style and content of images</a>.
     	</li>
