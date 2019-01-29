@@ -57,86 +57,68 @@ Linux, OSX
 ## <i class="fa fa-chevron-right"></i>Open Source Projects
 <table class="table table-hover">
 
-
-
-<!--<tr>
-<td class="col-md-3"><a><img src='images/projects/deepvision.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
-<td>
-    <strong>A TensorFlow API for Deep Learning based Computer Vision Algorithms (TensorCV)</strong><br>
-    It is a high-level deep learning API for computer vision algorithms built on top of TensorFlow. This package is design for fast implementation of deep learning based computer vision algorithms and practice of object oriented programming. New features are continually added based on the new algorithms I am implementing.<br>
-    
-    
-[<a href='javascript: none' 
-    onclick='$("#deepvision").toggle()'>details</a>] [<a href='http://github.com/conan7882/DeepVision-tensorflow' target='_blank'>code</a>] <br>
-    
-<div id="deepvision" style="text-align: justify; display: none" markdown="1">
-<ul> 
-    <li>A set of dataflow API to load different types of image date and dataset.</li> <li>A set of callbacks can be used for moniter and inspect training and testing process.</li> <li>summery</li> <li>save test data</li> <li>Some commonly used models, including VGG, DCGAN, are ready to use.</li>
-</ul>
-</div>
-</td>
-</tr>-->
-
 <tr>
 <td class="col-md-3"><a><img src='images/projects/yolo.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
-<strong>YOLOv3 for Object Detection</strong><br>
-<div>
-<ul> 
-    <li>TensorFlow implementation of YOLOv3 object detection for both inference and training.
-    </li>    
-    <li>Provided customized training blocks, including bounding box clustering, data augmentation and multi-scale training.
-    </li>
-    <li>
-    <a href='https://github.com/conan7882/YOLOv3/tree/master#train-on-voc2012-dataset-20-classes' target='_blank'>Trained</a> on <a href='http://host.robots.ox.ac.uk/pascal/VOC/' target='_blank'>PASCAL VOC dataset</a> for 20 object classes detection on natural images.
-    </li>
-</ul>
-</div>
-    
-[<a href='https://github.com/conan7882/yolov3' target='_blank'>code</a>] <br>
-    
+	<strong>YOLOv3 for Object Detection</strong><br>
+	<div>
+		<ul> 
+    		<li>
+    			TensorFlow implementation of YOLOv3 object detection for both inference and training.
+    		</li>
+    		<li>
+    			Provided customized training blocks, including bounding box clustering, data augmentation and multi-scale training.
+    		</li>
+    		<li>
+    			<a href='https://github.com/conan7882/YOLOv3/tree/master#train-on-voc2012-dataset-20-classes' target='_blank'>Trained</a> on <a href='http://host.robots.ox.ac.uk/pascal/VOC/' target='_blank'>PASCAL VOC dataset</a> for 20 object classes detection on natural images.
+    		</li>
+		</ul>
+	</div>
+	
+	[<a href='https://github.com/conan7882/yolov3' target='_blank'>code</a>]<br>
 </td>
 </tr>
 
 <tr>
 <td class="col-md-3"><a><img src='images/projects/gans.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
-<strong>Implementations of Generative Adversarial Networks (GANs)</strong><br>
-<div>
-<ul> 
-    <li>Implementions of various GANs models, including <a href='https://github.com/conan7882/tf-gans/tree/master/docs/dcgan#deep-convolutional-generative-adversarial-networks-dcgan' target='_blank'>DCGAN</a>, <a href='https://github.com/conan7882/tf-gans/tree/master/docs/lsgan' target='_blank'>LSGAN</a> and <a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan' target='_blank'>InfoGAN</a> for comparison and analyzing the training behaviors of different GANs.
-    </li>
-    <li>Applied on <a href='https://github.com/conan7882/tf-gans#mnist' target='_blank'>MNIST</a> dataset and <a href='https://github.com/conan7882/tf-gans#celeba' target='_blank'>CelebA</a> human face dataset.
-    </li>
-    <li><a href='https://github.com/conan7882/tf-gans#celeba' target='_blank'>Visualized</a> the interpolation of the learned latent space.
-    </li>
-    <li>
-    <a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan#celeba' target='_blank'>Generated</a> face images with controlled context, such as emotion, hairstyle and azimuth, in an unsupervised manner by using InfoGAN.
-    </li>
-</ul>
-</div>  
-[<a href='https://github.com/conan7882/tf-gans' target='_blank'>code</a>] <br>
+	<strong>Implementations of Generative Adversarial Networks (GANs)</strong><br>
+	<div>
+		<ul> 
+    		<li>
+    			Implementions of various GANs models, including <a href='https://github.com/conan7882/tf-gans/tree/master/docs/dcgan#deep-convolutional-generative-adversarial-networks-dcgan' target='_blank'>DCGAN</a>, <a href='https://github.com/conan7882/tf-gans/tree/master/docs/lsgan' target='_blank'>LSGAN</a> and <a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan' target='_blank'>InfoGAN</a> for comparison and analyzing the training behaviors of different GANs.
+    		</li>
+    		<li>
+    			Applied on <a href='https://github.com/conan7882/tf-gans#mnist' target='_blank'>MNIST</a> dataset and <a href='https://github.com/conan7882/tf-gans#celeba' target='_blank'>CelebA</a> human face dataset.
+    		</li>
+    		<li>
+    			<a href='https://github.com/conan7882/tf-gans#celeba' target='_blank'>Visualized</a> the interpolation of the learned latent space.
+    		</li>
+    		<li>
+    			<a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan#celeba' target='_blank'>Generated</a> face images with controlled context, such as emotion, hairstyle and azimuth, in an unsupervised manner by using InfoGAN.
+    		</li>
+		</ul>
+	</div>  
+	
+	[<a href='https://github.com/conan7882/tf-gans' target='_blank'>code</a>] <br>
 </td>
 </tr>
 
 <tr>
 <td class="col-md-3"><a><img src='images/projects/aae.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
-<strong>Adversarial Autoencoders for Variational Inference and Semi-Supervised Learning</strong><br>
-<div>
-<ul> 
-    <li>Provided an implemented of adversarial autoencoders (AAE) which utilize GAN framework as a <a href='https://github.com/conan7882/adversarial-autoencoders#result' target='_blank'>variational inference</a> algorithm.
-    </li>
-<!--    <li>Showed that AAE can impose distributions without having the explicit functional form of the distributions.
-    </li>-->
-    <li>
-    Applied for <a href='https://github.com/conan7882/adversarial-autoencoders#result-3' target='_blank'>semi-supervised learning</a> and <a href='https://github.com/conan7882/adversarial-autoencoders#result-2' target='_blank'>disentangling style and content of images</a>.
-    </li>
-</ul>
-</div>
+	<strong>Adversarial Autoencoders for Variational Inference and Semi-Supervised Learning</strong><br>
+	<div>
+		<ul> 
+    	<li>
+    		Provided an implemented of adversarial autoencoders (AAE) which utilize GAN framework as a <a href='https://github.com/conan7882/adversarial-autoencoders#result' target='_blank'>variational inference</a> algorithm.
+    	<li>
+    		Applied for <a href='https://github.com/conan7882/adversarial-autoencoders#result-3' target='_blank'>semi-supervised learning</a> and <a href='https://github.com/conan7882/adversarial-autoencoders#result-2' target='_blank'>disentangling style and content of images</a>.
+    	</li>
+		</ul>
+	</div>
     
-[<a href='https://github.com/conan7882/adversarial-autoencoders' target='_blank'>code</a>] <br>
-    
+	[<a href='https://github.com/conan7882/adversarial-autoencoders' target='_blank'>code</a>] <br> 
 </td>
 </tr>
 
@@ -153,6 +135,8 @@ Linux, OSX
     </div>
     
     [<a href='https://github.com/conan7882/pix2pix' target='_blank'>code</a>]<br>
+</td>
+</tr>
     
 <tr>
 <td class="col-md-3"><a><img src='images/projects/cnnviz.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
@@ -171,10 +155,11 @@ Linux, OSX
     </li>
     </ul>
     </div>
-    
-    
-[<a href='http://github.com/conan7882/CNN-Visualization' target='_blank'>code</a>] <br>
-
+	[<a href='http://github.com/conan7882/CNN-Visualization' target='_blank'>code</a>] <br>
+</td>
+</tr>
+	
+	
 <tr>
 <td class="col-md-3"><a><img src='images/projects/ram.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
