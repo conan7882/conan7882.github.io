@@ -54,7 +54,7 @@ Linux, OSX
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Selected Open Source Projects
+## <i class="fa fa-chevron-right"></i>Open Source Projects
 <table class="table table-hover">
 <!--<tr>
 <td class="col-md-3"><a><img src='images/projects/deepvision.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
@@ -80,12 +80,12 @@ Linux, OSX
 <strong>YOLOv3 for Object Detection</strong><br>
 <div>
 <ul> 
-    <li>TensorFlow implementation of YOLOv3 for inference and training, which supports custom dataset.
-    </li>
-    <li>Entire training pipeline was implemented and easy to be customized, including bounding box clustering, data augmentation and multi-scale training.
+    <li>TensorFlow implementation of YOLOv3 object detection for both inference and training.
+    </li>    
+    <li>Provided customized training blocks, including bounding box clustering, data augmentation and multi-scale training.
     </li>
     <li>
-    Detailed instructions and a ready-to-use pre-trained model were provided.
+    <a href='https://github.com/conan7882/YOLOv3/tree/master#train-on-voc2012-dataset-20-classes' target='_blank'>Trained</a> on <a href='http://host.robots.ox.ac.uk/pascal/VOC/' target='_blank'>PASCAL VOC dataset</a> for 20 object classes detection on natural images.
     </li>
 </ul>
 </div>
@@ -98,21 +98,21 @@ Linux, OSX
 <tr>
 <td class="col-md-3"><a><img src='images/projects/gans.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
-<strong>Generative Adversarial Networks for Human Face Images</strong><br>
+<strong>Implementations of Generative Adversarial Networks (GANs)</strong><br>
 <div>
 <ul> 
-    <li>ImplementedDCGAN,LSGANandInfoGAN, and applied on CelebA face dataset for comparison.
+    <li>Implementions of various GANs models, including <a href='https://github.com/conan7882/tf-gans/tree/master/docs/dcgan#deep-convolutional-generative-adversarial-networks-dcgan' target='_blank'>DCGAN</a>, <a href='https://github.com/conan7882/tf-gans/tree/master/docs/lsgan' target='_blank'>LSGAN</a> and <a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan' target='_blank'>InfoGAN</a> for comparison and analyzing the training behaviors of different GANs.
     </li>
-    <li>Visualized the generated images during training and the interpolation of the learned latent space.
+    <li>Applied on <a href='https://github.com/conan7882/tf-gans#mnist' target='_blank'>MNIST</a> dataset and <a href='https://github.com/conan7882/tf-gans#celeba' target='_blank'>CelebA</a> human face dataset.
+    </li>
+    <li><a href='https://github.com/conan7882/tf-gans#celeba' target='_blank'>Visualized</a> the interpolation of the learned latent space.
     </li>
     <li>
-    Demonstrated that InfoGAN can learn interpretable and disentangled representations in an unsupervised manner.
+    <a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan#celeba' target='_blank'>Generated</a> face images with controlled context, such as emotion, hairstyle and azimuth, in an unsupervised manner by using InfoGAN.
     </li>
 </ul>
-</div>
-    
+</div>  
 [<a href='https://github.com/conan7882/tf-gans' target='_blank'>code</a>] <br>
-    
 </td>
 </tr>
 
@@ -122,12 +122,12 @@ Linux, OSX
 <strong>Adversarial Autoencoders for Variational Inference and Semi-Supervised Learning</strong><br>
 <div>
 <ul> 
-    <li>Implemented the adversarial autoencoders (AAE) which utilize GAN as a variational inference algorithm.
+    <li>Provided an implemented of adversarial autoencoders (AAE) which utilize GAN framework as a <a href='https://github.com/conan7882/adversarial-autoencoders#result' target='_blank'>variational inference</a> algorithm.
     </li>
-    <li>Showed that AAE can impose distributions without having the explicit functional form of the distributions.
-    </li>
+<!--    <li>Showed that AAE can impose distributions without having the explicit functional form of the distributions.
+    </li>-->
     <li>
-    Applied for semi-supervised learning and disentangling style and content of images.
+    Applied for <a href='https://github.com/conan7882/adversarial-autoencoders#result-3' target='_blank'>semi-supervised learning</a> and <a href='https://github.com/conan7882/adversarial-autoencoders#result-2' target='_blank'>disentangling style and content of images</a>.
     </li>
 </ul>
 </div>
@@ -138,15 +138,49 @@ Linux, OSX
 </tr>
 
 <tr>
-<td class="col-md-3"><a><img src='images/projects/trans.gif'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
+<td class="col-md-3"><a><img src='images/projects/pix2pix.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
-<strong>Image Recognition Using Recurrent Attention Model</strong><br>
+    <strong>Image to Image Translation with Conditional GANs</strong><br>
+    <div>
+    <ul>
+    <li>
+    Reconstructed building facade photos from label maps and generated shoes photos from sketches using pix2pix conditional GANs
+    </li> 
+    </ul>
+    </div>
+    
+    [<a href='https://github.com/conan7882/pix2pix' target='_blank'>code</a>]<br>
+    
+<tr>
+<td class="col-md-3"><a><img src='images/projects/cnnviz.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
+<td>
+    <strong>Visualization CNN for Interpretation of Trained Models</strong><br>
+    <div>
+    <ul>
+    <li>
+    Provided interpretation of trained CNN models by visualizing the learned features and the image regions where the models pay attention to.
+    </li> 
+    <li>
+    <a href='https://github.com/conan7882/CNN-Visualization/blob/master/doc/deconv/README.md#results' target='_blank'>Transposed convolutional network</a> and <a href='https://github.com/conan7882/CNN-Visualization/tree/master/doc/guided_backpropagation#results' target='_blank'>guided back propagation</a> were applied for learned feature visualization.
+    </li>
+    <li>
+    <a href='https://github.com/conan7882/CNN-Visualization/tree/master/doc/cam#results' target='_blank'>Class Activation Mapping</a> and <a href='https://github.com/conan7882/CNN-Visualization/tree/master/doc/grad_cam#results' target='_blank'>Gradient-weighted Class Activation Mapping</a> were applied for attention region visualization.
+    </li>
+    </ul>
+    </div>
+    
+    
+[<a href='http://github.com/conan7882/CNN-Visualization' target='_blank'>code</a>] <br>
+
+<tr>
+<td class="col-md-3"><a><img src='images/projects/ram.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
+<td>
+<strong>Image Classification using Recurrent Attention Model</strong><br>
 <div>
 <ul> 
-    <li>Implemented and trained a recurrent visual attention model using REINFORCE algorithm for image recognition (achieved 97.82 accuracy on 60 x 60 translated MNIST).
+    <li>Implemented a recurrent visual attention model for image classification, which reduces the computational complexity by only focusing on a sequence of small regions of the image.
     </li>
-    <li><a href='https://github.com/conan7882/recurrent-attention-model#result' target='_blank'>Visualized</a> the attention regions during inference, and
-showed that the model can learn to select the next location in the image to focus on and make a correct recognition prediction by only seeing the selected regions.
+    <li>Achieved 97.82% accuracy on 60 x 60 translated MNIST and provided interpretation of the classification results by <a href='https://github.com/conan7882/recurrent-attention-model#result' target='_blank'>visualizing</a> the attention regions during inference.
     </li>
 </ul>
 </div>
@@ -156,35 +190,48 @@ showed that the model can learn to select the next location in the image to focu
 </td>
 </tr>
 
-
 <tr>
-<td class="col-md-3"><a><img src='images/projects/cnnviz.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
+<td class="col-md-3"><a><img src='images/projects/gnet.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
-    <strong>Visualization of Convolutional Neural Networks</strong><br>
-    TensorFlow implementations of visualizatin of CNN, such as Class Activation Mapping (CAM), Gradient-CAM and Guided Back Propagation. The aim of this project is to demostrate the visulization algorithms as well as to inspect what CNNs have leart from from large number of images.<br>
-    
-    
-[<a href='javascript: none' 
-    onclick='$("#cnnviz").toggle()'>details</a>] [<a href='http://github.com/conan7882/CNN-Visualization' target='_blank'>code</a>] <br>
-    
-<div id="cnnviz" style="text-align: justify; display: none" markdown="1">
+<strong>VGG and GoogleNet for Image Classification and Feature Extraction</strong><br>
+<div>
 <ul> 
-    <li>Visulization of VGG19 attentions for different image classes using CAM, Grad-CAM and Guided back propagation.</li> <li>API</li>
+    <li>Implemented VGG and GoogleNet (Inceptionv1) image classification for training, inference and feature extraction.
+    </li>
+    <li>Designed a modified Inception network for training on low resolution dataset from scratch (<a href='https://github.com/conan7882/GoogLeNet-Inception#train-the-network-from-scratch-on-cifar-10' target='_blank'>archieved</a> 93.64% accuracy on CIFAR-10 testing set).
+    </li>
 </ul>
 </div>
+    
+[<a href='https://github.com/conan7882/VGG-cifar' target='_blank'>VGG</a>] [<a href='https://github.com/conan7882/GoogLeNet-Inception' target='_blank'>GoogleNet</a>]<br>
+    
 </td>
 </tr>
+
+
+
 <tr>
 <td class="col-md-3"><a><img src='images/projects/styletrans.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
-    <strong>Art Style Transfer</strong><br>
-    TensorFlow implementation of art style transfer using deep neural networks.<br>
+    <strong>Image and Video Style Transfer using Fast Style Transfer and Neural Style</strong><br>
+    <div>
+    <ul>
+    <li>
+    Implemented the fast style transfer to transfer images and videos to a specific artistic style in nearly real-time. Provided <a href='https://github.com/conan7882/fast-style-transfer#preparation' target='_blank'>five pre-trained models</a> of different styles trained on COCO dataset which can be immediately used for image and video style transfer.
+    </li>
+    <li>
+    Implemented the neural style transfer for image style transfer.
+    </li>
+
+    </ul>
+    </div>
     
-    [<a href='http://github.com/conan7882/art_style_transfer_TensorFlow' target='_blank'>code</a>] <br>
-    
+    [<a href='http://github.com/conan7882/art_style_transfer_TensorFlow' target='_blank'>fast style code</a>] [<a href='https://github.com/conan7882/fast-style-transfer' target='_blank'>neural style code</a>]<br>
 </td>
 </tr>
-<tr>
+
+
+<!--<tr>
 <td class="col-md-3"><a><img src='images/projects/tensorproj.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
     <strong>Other TensorFlow Projects</strong><br>
@@ -198,7 +245,10 @@ showed that the model can learn to select the next location in the image to focu
     <br>
     
 </td>
-</tr>
+</tr>-->
+
+
+<!--
 <tr>
 <td class="col-md-3"><a><img src='images/projects/courseproj.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
@@ -213,7 +263,7 @@ showed that the model can learn to select the next location in the image to focu
     <br>
     
 </td>
-</tr>
+</tr>-->
 </table>
 
 
