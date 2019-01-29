@@ -234,7 +234,7 @@ Linux, OSX
 </tr>
 
 
-<!--<tr>
+<tr>
 <td class="col-md-3"><a><img src='images/projects/tensorproj.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
     <strong>Other TensorFlow Projects</strong><br>
@@ -248,7 +248,7 @@ Linux, OSX
     <br>
     
 </td>
-</tr>-->
+</tr>
 
 
 
