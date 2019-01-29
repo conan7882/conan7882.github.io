@@ -56,6 +56,9 @@ Linux, OSX
 
 ## <i class="fa fa-chevron-right"></i>Open Source Projects
 <table class="table table-hover">
+
+
+
 <!--<tr>
 <td class="col-md-3"><a><img src='images/projects/deepvision.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
@@ -248,7 +251,7 @@ Linux, OSX
 </tr>-->
 
 
-<!--
+
 <tr>
 <td class="col-md-3"><a><img src='images/projects/courseproj.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
@@ -260,10 +263,13 @@ Linux, OSX
     <li>Leaf classification based on visual features using PCA and k-means (2011) </li> <li>Face recognition based on eigenface using multilayer perceptron (MLP) (2012) </li> <li>Human activity recognition using hidden Markov model (HMM) (2015) </li>
 </ul>
 </div>
-    <br>
+<br>
     
 </td>
-</tr>-->
+</tr>
+
+
+
 </table>
 
 
