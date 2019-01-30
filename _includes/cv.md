@@ -417,7 +417,7 @@ Linux, OSX
 <td class="col-md-3"><a><img src='images/projects/registration.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
     <strong>Non-Rigid Image Registration with Uncertainty Analysis</strong><br>
-    We proposed a noval non-rigid image registration methodology which can be applied to medical images as well as natural images.
+    We proposed a novel non-rigid image registration methodology which can be applied to medical images as well as natural images.
     We also provided the uncertainty bounds to characterize the registration accuracy over the entire image domain. <br>
     
     
