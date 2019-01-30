@@ -15,7 +15,7 @@
     <td>
         <strong>Ph.D. in Electrical Engineering</strong>
         <br>
-      North Carolina State University
+      North Carolina State University, Raleigh, NC, USA
     </td>
   </tr>
   <tr>
@@ -23,7 +23,7 @@
     <td>
         <strong>M.S. in Electrical Engineering</strong>
         <br>
-      University of Electronic Science and Technology of China
+      University of Electronic Science and Technology of China, Chengdu, Sichuan, P.R. China
     </td>
   </tr>
   <tr>
@@ -31,7 +31,7 @@
     <td>
         <strong>B.S. in Electrical Engineering</strong>
         <br>
-      University of Electronic Science and Technology of China
+      University of Electronic Science and Technology of China, Chengdu, Sichuan, P.R. China
     </td>
   </tr>
 </table>
