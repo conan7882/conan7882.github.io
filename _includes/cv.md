@@ -266,13 +266,11 @@ Linux, OSX
 <tr>
 <td class="col-md-3"><a><img src='images/projects/forams.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
-    <strong>A Visual System for Autonomous Foraminifera Identification</strong><br>    
-    The goal of this project is to develop an automated system for identification of foraminifera (single-celled organisms with shells). 
-    Foraminifera are common in many modern and ancient environments, and as such have become invaluable tools for petroleum exploration, biostratigraphy, paleoecology and paleobiogeography. 
-    Currently undergraduate workers are often employed to hand pick several thousands of specimens from ocean sediments for each study, which is tedious and time consuming. 
-    By automating the bulk of the identification process, user expertise can be focused on verification and identification of subtle differences.
+    <strong>A Visual System for Autonomous Foraminifera Identification</strong><br>  
+    Foraminifera are single-celled organisms with shells, which are useful in petroleum exploration, biostratigraphy, paleoecology and paleobiogeography.
+    We developed an automated system for identification of foraminifera species to reduce the human efforts on manually picking thousands of samples from ocean sediments.
+    We also created a foraminifera image dataset and proposed novel robust edge detection algorithms on this dataset.
     <br>
-    
     
 [<a href='javascript: none' 
     onclick='$("#forams").toggle()'>details</a>] [<a href='https://research.ece.ncsu.edu/aros/foram-identification/' target='_blank'>web</a>] <br>
@@ -283,13 +281,17 @@ Linux, OSX
     	Leaded the creation of a forams image dataset containing 1437 samples and 457 manually segmentation samples. Created synthetic images refined by GANs for data augmentation.
     </li>
     <li>
+    	Created synthetic images refined by GANs for data augmentation.
+    </li>
+    <li>
     	Developed a coarse-to-fine CNN-based edge detection pipeline which iteratively applies edge detection modules on predicted edge maps.
 Achieved a high accuracy on the forams dataset for finding vague edges between forams chambers with similar texture (0.91 edge F1 score).
     </li>
     <li>
-    	Designed a metric to measure the structural difference between two edge maps. 
-Developed a training process utilizing this metric to train an edge detection network which focuses on preserving topological structures of edges.
-Improved the performance on both edge detection and edge-based segmentation (improved edge F1 score from 0.91 to 0.93 and segmentation IoU from 0.80 to 0.82).
+    	Designed a topology-based metric to measure the structural difference between two edge maps. 
+    </li>
+    <li> 
+    Developed a training process utilizing the topological metric to train an edge detection network which focuses on preserving topological structures of edges. Improved the performance on both edge detection and edge-based segmentation (improved edge F1 score from 0.91 to 0.93 and segmentation IoU from 0.80 to 0.82).
     </li>
     <li>
     	Built a transfer learning process for identification of six forams species using features extracted from pre-trained VGG, Inception and ResNet.
@@ -301,19 +303,19 @@ Improved the performance on both edge detection and edge-based segmentation (imp
 <tr>
 <td class="col-md-3"><a><img src='images/projects/consensus.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
-    <strong>Consensus-Based Image Segmentation</strong><br>
-    The objective of this research is the development of a mathematical framework that enables the identification, characterization and matching of patterns in imaging data with certain guarantees.<br>
-    
+    <strong>Robust Traffic Scenes Obstacle Detection and Image Segmentation</strong><br>
+    We proposed a persistent homology based image segmentation framework which is robust to image qualities and parameter selection. The application areas for this framework include autonomous driving systems and segmentation of natural and biological images.
+    <br> 
     
 [<a href='javascript: none' 
-    onclick='$("#consensus").toggle()'>details</a>] [<a href='https://research.ece.ncsu.edu/aros/project/pattern-analysis/' target='_blank'>web</a>] <br>
-    
-    
-    
+    onclick='$("#consensus").toggle()'>details</a>] [<a href='https://conan7882.github.io/data/posters/tda-segmentation.pdf' target='_blank'>presentation</a>]
+    <br>
     
 <div id="consensus" style="text-align: justify; display: none" markdown="1">
 <ul> 
-    <li>Developed a consensus-based image segmentation method through topological persistence, which is robust to parameter selection.</li> <li>Modeled a probabilistic image segmentation to represent the probability of a segmentation curve being present in a segmentation set.</li>
+    <li>Proposed a persistent homology based image segmentation framework which is robust to image qualities and parameter selection.</li>
+    <li>Designed a pipeline for traffic scene obstacle detection based on this framework by extracting persistence regions in occupancy grids computed from disparity maps. Demonstrated that this pipeline is robust to input image quality through experiments on KITTI dataset.</li>
+	<li>Designed a consensus-based image segmentation based on this framework for robustly extracting consensus information from a segmentation result set generated by different segmentation algorithms. Achieved better performance over a wide range of parameters than any input algorithm with its best parameter setting on Berkeley Segmentation Database.</li>
 </ul>
 </div>
 </td>
