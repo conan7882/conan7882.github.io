@@ -273,12 +273,12 @@ Linux, OSX
     <br>
     
 [<a href='javascript: none' 
-    onclick='$("#forams").toggle()'>details</a>] [<a href='https://research.ece.ncsu.edu/aros/foram-identification/' target='_blank'>web</a>] <br>
+    onclick='$("#forams").toggle()'>details</a>] [<a href='https://research.ece.ncsu.edu/aros/foram-identification/' target='_blank'>project page</a>] <br>
     
 <div id="forams" style="text-align: justify; display: none" markdown="1">
 <ul> 
     <li>
-    	Leaded the creation of a forams image dataset containing 1437 samples and 457 manually segmentation samples. Created synthetic images refined by GANs for data augmentation.
+    	Leaded the creation of a forams image dataset containing 1437 samples and 457 manually segmentation samples.
     </li>
     <li>
     	Created synthetic images refined by GANs for data augmentation.
@@ -329,7 +329,7 @@ Linux, OSX
 </tr>
 
 
-<tr>
+<!--<tr>
 <td class="col-md-3"><a><img src='images/projects/car.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
     <strong>Autonomous Car</strong><br>
@@ -345,41 +345,55 @@ Linux, OSX
 </ul>
 </div>
 </td>
-</tr>
-<tr>
-<td class="col-md-3"><a><img src='images/projects/registration.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
-<td>
-    <strong>Image Registration based on Robust Topological Features</strong><br>
-    The objective of this research is the development of a mathematical framework that enables the identification, characterization and matching of patterns in imaging data with certain guarantees.<br>
-    
-    
-[<a href='javascript: none' 
-    onclick='$("#registration").toggle()'>details</a>] <br>
-    
-<div id="registration" style="text-align: justify; display: none" markdown="1">
-<ul> 
-    <li>Designed an image registration algorithm under bounded non-rigid deformation which guarantees the correct matchings within a certain region.</li> <li>Computed an uncertainty map of the registration to indicate the accuracy of the registration for each pixel.</li>
-</ul>
-</div>
-</td>
-</tr>
+</tr>-->
+
 <tr>
 <td class="col-md-3"><a><img src='images/projects/newspaper.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
     <strong>Exploring Victorian Illustrated Newspapers Data through Computer Vision Techniques</strong><br>
-    The objective of this research is the development of a mathematical framework that enables the identification, characterization and matching of patterns in imaging data with certain guarantees.<br>
+    The aim of this project is to answer how can computer vision and image processing techniques be adapted for large-scale interpretation of historical materials.
+<!--    The aim of this project is to suggest how computer vision techniques can reveal large-scale patterns in the visual language of the nineteenth century, opening further research questions about historical visual culture and graphic knowledge.-->
+    We applied several computer vision techniques on a set of nineteenth-century illustrated British newspapers to explore and test the feasibility of these techniques for analyzing large collections of these periodical illustrations.
+    <br>
     
     
 [<a href='javascript: none' 
-    onclick='$("#newspaper").toggle()'>details</a>] [<a href='https://ncna.dh.chass.ncsu.edu/' target='_blank'>web</a>] <br>
+    onclick='$("#newspaper").toggle()'>details</a>] [<a href='https://ncna.dh.chass.ncsu.edu/' target='_blank'>project page</a>] <br>
     
 <div id="newspaper" style="text-align: justify; display: none" markdown="1">
 <ul> 
-    <li>Designed a visual feature for classification of line engravings and halftone images in nineteenth-century British newspapers.</li> <li>Clustered and extracted specific scenes such as portraits, crowds, buildings and weather charts using k-means, KNN and SVM based on GIST descriptor.</li>
+	<li>Created a Victorian newspaper illustration dataset by extracting illustration regions from scanned newspaper pages with high accuracy.</li>
+	<li>Developed a Fourier transform based feature to distinguish line engravings and halftone images for tracking the presence of halftone images in late nineteenth-century British newspapers.</li>
+    <li>Extracted specific scenes such as portraits, crowds, buildings and weather charts using k-means, KNN and SVM based on GIST descriptor.</li>
 </ul>
 </div>
 </td>
 </tr>
+
+
+<tr>
+<td class="col-md-3"><a><img src='images/projects/registration.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
+<td>
+    <strong>Non-Rigid Image Registration with Uncertainty Analysis</strong><br>
+    We proposed a noval non-rigid image registration methodology which can be applied to medical images as well as natural images.
+    We also provided the uncertainty bounds to characterize the registration accuracy over the entire image domain. <br>
+    
+    
+[<a href='javascript: none' 
+    onclick='$("#registration").toggle()'>details</a>] [<a href='https://conan7882.github.io/data/posters/deformation_poster.pdf' target='_blank'>poster</a>]<br>
+    
+<div id="registration" style="text-align: justify; display: none" markdown="1">
+<ul> 
+    <li>Developed a topological-based correspondence point matching algorithm under a Lipschitz non-rigid deformation with zero false negative rate and high precision.</li>
+    <li>Extended the point matching to region registration by solving a graph matching problem with geometric constraints.</li>
+    <li>Developed an approach to quantify the uncertainty of the region registration.</li>
+</ul>
+</div>
+</td>
+</tr>
+
+
+
 </table>
 
 
@@ -420,7 +434,7 @@ In this paper, we propose a methodology for robust obstacle detection in outdoor
     onclick='$("#abs_qian2017foramsseg").toggle()'>abs</a>] [<a href='http://conan7882.github.io/data/papers/qian-ssci2017-foramsseg.pdf' target='_blank'>pdf</a>] <br>
     
 <div id="abs_qian2017foramsseg" style="text-align: justify; display: none" markdown="1">
-Foraminifera are single-celled marine organisms, which are usually less than 1 mm in diameter. One of the most common tasks associated with foraminifera is the species identification of thousands of foraminifera contained in rock or ocean sediment samples, which can be a tedious manual procedure. Thus an automatic visual identification system is desirable. Some of the primary criteria for foraminifera species identification come from the characteristics of the shell itself. As such, segmentation of chambers and apertures in foraminifera images would provide powerful features for species identifica- tion. Nevertheless, none of the existing image-based, automatic classification approaches make use of segmentation, partly due to the lack of accurate segmentation methods for foraminifera images. In this paper, we propose a learning-based edge detection pipeline, using a coarse-to-fine strategy, to extract the vague edges from foraminifera images for segmentation using a relatively small training set. The experiments demonstrate our approach is able to segment chambers and apertures of foraminifera correctly and has the potential to provide useful features for species identification and other applications such as morphological study of foraminifera shells and foraminifera dataset labeling.
+Foraminifera are single-celled marine organisms, which are usually less than 1 mm in diameter. One of the most common tasks associated with foraminifera is the species identification of thousands of foraminifera contained in rock or ocean sediment samples, which can be a tedious manual procedure. Thus an automatic visual identification system is desirable. Some of the primary criteria for foraminifera species identification come from the characteristics of the shell itself. As such, segmentation of chambers and apertures in foraminifera images would provide powerful features for species identification. Nevertheless, none of the existing image-based, automatic classification approaches make use of segmentation, partly due to the lack of accurate segmentation methods for foraminifera images. In this paper, we propose a learning-based edge detection pipeline, using a coarse-to-fine strategy, to extract the vague edges from foraminifera images for segmentation using a relatively small training set. The experiments demonstrate our approach is able to segment chambers and apertures of foraminifera correctly and has the potential to provide useful features for species identification and other applications such as morphological study of foraminifera shells and foraminifera dataset labeling.
 </div>
 
 </td>
@@ -437,7 +451,7 @@ Foraminifera are single-celled marine organisms, which are usually less than 1 m
     onclick='$("#abs_boxuan2017foramsclassify").toggle()'>abs</a>] [<a href='http://conan7882.github.io/data/papers/boxuan-ssci2017-foramsclassify.pdf' target='_blank'>pdf</a>] <br>
     
 <div id="abs_boxuan2017foramsclassify" style="text-align: justify; display: none" markdown="1">
-Identifying Foraminifera (or forams for short) is essential for oceanographic and geoscience research as well as petroleum exploration. Currently, this is mostly accomplished using trained human pickers, routinely taking weeks or even months to accomplish the task. In this paper, a foram identifica- tion pipeline is proposed to automatic identify forams based on computer vision and machine learning techniques. A microscope based image capturing system is used to collect a labelled image data set. Various popular image classification algorithms are adapted to this specific task and evaluated under various conditions. Finally, the potential of a weighted cross-entropy loss function in adjusting the trade-off between precision and recall is tested. The classification algorithms provide competitive results when compared to human experts labeling of the data set.
+Identifying Foraminifera (or forams for short) is essential for oceanographic and geoscience research as well as petroleum exploration. Currently, this is mostly accomplished using trained human pickers, routinely taking weeks or even months to accomplish the task. In this paper, a foram identification pipeline is proposed to automatic identify forams based on computer vision and machine learning techniques. A microscope based image capturing system is used to collect a labelled image data set. Various popular image classification algorithms are adapted to this specific task and evaluated under various conditions. Finally, the potential of a weighted cross-entropy loss function in adjusting the trade-off between precision and recall is tested. The classification algorithms provide competitive results when compared to human experts labeling of the data set.
 </div>
 
 </td>
@@ -454,7 +468,7 @@ Identifying Foraminifera (or forams for short) is essential for oceanographic an
     onclick='$("#abs_qian2016consensus").toggle()'>abs</a>] [<a href='http://conan7882.github.io/data/papers/qian-cvprw2017-consensus.pdf' target='_blank'>pdf</a>] <br>
     
 <div id="abs_qian2016consensus" style="text-align: justify; display: none" markdown="1">
-Image segmentation is one of the most important low- level operation in image processing and computer vision. It is unlikely for a single algorithm with a fixed set of param- eters to segment various images successfully due to varia- tions between images. However, it can be observed that the desired segmentation boundaries are often detected more consistently than other boundaries in the output of state- of-the-art segmentation results. In this paper, we propose a new approach to capture the consensus of information from a set of segmentations generated by varying param- eters of different algorithms. The probability of a segmen- tation curve being present is estimated based on our proba- bilistic image segmentation model. A connectivity probabil- ity map is constructed and persistent segments are extracted by applying topological persistence to the probability map. Finally, a robust segmentation is obtained with the detec- tion of certain segmentation curves guaranteed. The ex- periments demonstrate our algorithm is able to consistently capture the curves present within the segmentation set.
+Image segmentation is one of the most important low-level operation in image processing and computer vision. It is unlikely for a single algorithm with a fixed set of parameters to segment various images successfully due to variations between images. However, it can be observed that the desired segmentation boundaries are often detected more consistently than other boundaries in the output of state-of-the-art segmentation results. In this paper, we propose a new approach to capture the consensus of information from a set of segmentations generated by varying parameters of different algorithms. The probability of a segmentation curve being present is estimated based on our probabilistic image segmentation model. A connectivity probability map is constructed and persistent segments are extracted by applying topological persistence to the probability map. Finally, a robust segmentation is obtained with the detection of certain segmentation curves guaranteed. The experiments demonstrate our algorithm is able to consistently capture the curves present within the segmentation set.
 </div>
 
 </td>
@@ -505,7 +519,7 @@ In this paper, a new methodology for robust seg- mentation of obstacles from ste
     onclick='$("#abs_namita2014footprint").toggle()'>abs</a>] [<a href='http://conan7882.github.io/data/papers/namita-ssci2014footprint.pdf' target='_blank'>pdf</a>] <br>
     
 <div id="abs_namita2014footprint" style="text-align: justify; display: none" markdown="1">
-Recognition of animals via images of their foot- prints is a non-invasive technique recently adopted by researchers interested in monitoring endangered species. One of the chal- lenges that they face is the extraction of features from these images, which are required for this approach. These features are points along the boundary curve of the footprints. In this paper, we propose an innovative technique for extracting these curves from depth images. We formulate the problem of identification of the boundary of the footprint as a pattern recognition problem of a stochastic process over a manifold. This methodology has other applications on segmentation of biological tissue for medical applications and tracking of extreme weather patterns. The problem of pattern identification in the manifold is posed as a shortest path problem, where the path with the smallest cost is identified as the one with the highest likelihood to belong to the stochastic process. Our methodology is tested in a new dataset of normalized depth images of tiger footprints with ground truth selected by experts in the field.
+Recognition of animals via images of their foot- prints is a non-invasive technique recently adopted by researchers interested in monitoring endangered species. One of the challenges that they face is the extraction of features from these images, which are required for this approach. These features are points along the boundary curve of the footprints. In this paper, we propose an innovative technique for extracting these curves from depth images. We formulate the problem of identification of the boundary of the footprint as a pattern recognition problem of a stochastic process over a manifold. This methodology has other applications on segmentation of biological tissue for medical applications and tracking of extreme weather patterns. The problem of pattern identification in the manifold is posed as a shortest path problem, where the path with the smallest cost is identified as the one with the highest likelihood to belong to the stochastic process. Our methodology is tested in a new dataset of normalized depth images of tiger footprints with ground truth selected by experts in the field.
 </div>
 
 </td>
