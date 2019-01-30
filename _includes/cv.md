@@ -1,6 +1,6 @@
- I am an Electrical Engineering Ph.D. candidate at [North Carolina State University](https://www.ncsu.edu/). I an working with [Dr. Edgar Lobaton](http://www.ece.ncsu.edu/people/ejlobato/) at [Active Robotic Sensing (ARoS) Laboratory](http://research.ece.ncsu.edu/aros//) on computer vision and machine learning.
+ I am an Electrical Engineering Ph.D. candidate at [North Carolina State University](https://www.ncsu.edu/). I am working with [Dr. Edgar Lobaton](http://www.ece.ncsu.edu/people/ejlobato/) at [Active Robotic Sensing (ARoS) Laboratory](http://research.ece.ncsu.edu/aros//) on computer vision and machine learning.
  My current research mainly focuses on robust image segmentation for different applications, including obstacle detection for autonomous car, topology preserving segmentation for structure study and consensus-based natural image segmentation.
- I also like digging deep into various deep learning models related to computer vision through implementing the models and reproducing the experiments from research papers.
+ I also like digging deep into various deep learning models through implementing the models and reproducing the experiments from research papers.
  
  
  
