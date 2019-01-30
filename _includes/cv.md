@@ -53,6 +53,32 @@ Linux, OSX
 </tr> -->
 </table>
 
+## <i class="fa fa-chevron-right"></i>Work Experience
+<table class="table table-hover">
+  <tr>
+    <td class="col-md-3">Jan 2018 -- May 2018</td>
+    <td>
+        <strong>Research Aid Intern, <a href='https://www.anl.gov/' target='_blank'>Argonne National Laboratory</a>, Lemont, IL</strong>
+        <br>            
+	<div>
+		<ul> 
+    		<li>
+    			Cleaned and aligned raw data from multiple resources including historical load demands, climate data and weekdays/holidays.
+    		</li>
+    		<li>
+    		Designed a Sequence-to-Sequence-based model for load demand forecasting, and proposed a rich feature learning process to improve accuracy and model interpretability.
+    		</li>
+    		<li>
+    		Achieved better or comparable performance to state-of-the-art load demand forecasting models on three public dataset.
+    		</li>
+		</ul>
+	</div>
+      
+    </td>
+  </tr>
+
+</table>
+
 
 ## <i class="fa fa-chevron-right"></i>Open Source Projects
 <table class="table table-hover">
@@ -284,10 +310,10 @@ Linux, OSX
     	Created synthetic images refined by GANs for data augmentation.
     </li>
     <li>
-    	Developed a coarse-to-fine CNN-based edge detection pipeline which iteratively applies edge detection modules on predicted edge maps.
+    	Developed a coarse-to-fine fully convolutional edge detection network which iteratively applies edge detection modules on predicted edge maps.
     </li>
     <li>
-    Achieved a high accuracy on the forams dataset for finding vague edges between forams chambers with similar texture (0.91 edge F1 score).
+    Achieved 0.91 edge F1 score on the forams dataset for finding vague edges between forams chambers with similar texture.
     </li>
     <li>
     	Designed a topology-based metric to measure the structural difference between two edge maps. 
@@ -296,7 +322,7 @@ Linux, OSX
     Developed a training process utilizing the topological metric to train an edge detection network which focuses on preserving topological structures of edges. 
     </li>
     <li>
-    	Improved the performance on both edge detection and edge-based segmentation (improved edge F1 score from 0.91 to 0.93 and segmentation IoU from 0.80 to 0.82).
+    	Improved edge F1 score from 0.91 to 0.93 and segmentation IoU from 0.80 to 0.82.
     </li>
     <li>
     	Built a transfer learning process for identification of six forams species using features extracted from pre-trained VGG, Inception and ResNet.
@@ -306,7 +332,7 @@ Linux, OSX
 </td>
 </tr>
 <tr>
-<td class="col-md-3"><a><img src='images/projects/consensus.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
+<td class="col-md-3"><a><img src='images/projects/car.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
     <strong>Robust Traffic Scenes Obstacle Detection and Image Segmentation</strong><br>
     We proposed a persistent homology based image segmentation framework which is robust to image qualities and parameter selection. The application areas for this framework include autonomous driving systems and segmentation of natural and biological images.
