@@ -1,4 +1,10 @@
- I am an Eletrical Engineering Ph.D. student at North Carolina State University. I work with [Dr. Edgar Lobaton](http://www.ece.ncsu.edu/people/ejlobato/) at [Active Robotic Sensing (ARoS) Laboratory](http://research.ece.ncsu.edu/aros//) on computer vision and machine learning.
+ I am an Electrical Engineering Ph.D. candidate at [North Carolina State University](https://www.ncsu.edu/). I an working with [Dr. Edgar Lobaton](http://www.ece.ncsu.edu/people/ejlobato/) at [Active Robotic Sensing (ARoS) Laboratory](http://research.ece.ncsu.edu/aros//) on computer vision and machine learning.
+ My current research mainly focuses on robust image segmentation for different applications, including obstacle detection for autonomous car, topology preserving segmentation for structure study and consensus-based natural image segmentation.
+ I also like digging deep into various deep learning models related to computer vision through implementing the models and reproducing the experiments from research papers.
+ 
+ 
+ 
+ 
 
 
 ## <i class="fa fa-chevron-right"></i> Education
@@ -7,7 +13,7 @@
   <tr>
     <td class="col-md-3">May 2019 (expected)</td>
     <td>
-        <strong>Ph.D. in Eletrical Engineering</strong>
+        <strong>Ph.D. in Electrical Engineering</strong>
         <br>
       North Carolina State University
     </td>
@@ -15,7 +21,7 @@
   <tr>
     <td class="col-md-3">June 2011</td>
     <td>
-        <strong>M.S. in Eletrical Engineering</strong>
+        <strong>M.S. in Electrical Engineering</strong>
         <br>
       University of Electronic Science and Technology of China
     </td>
@@ -23,7 +29,7 @@
   <tr>
     <td class="col-md-3">July 2008</td>
     <td>
-        <strong>B.S. in Eletrical Engineering</strong>
+        <strong>B.S. in Electrical Engineering</strong>
         <br>
       University of Electronic Science and Technology of China
     </td>
@@ -45,6 +51,12 @@ Python, MATLAB, C/C++
 TensorFlow, NumPy, Scikit-learn, OpenCV, Git
   </td>
 </tr>
+<tr>
+  <td class='col-md-2'>Professional</td>
+  <td markdown="1">
+Computer Vision, Image Segmentation and Classification, Object Detection, Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Generative Adversarial Networks (GANs), Visual Attention Models 
+  </td>
+</tr>
 <!-- <tr>
   <td class='col-md-2'>Systems</td>
   <td markdown="1">
@@ -63,6 +75,9 @@ Linux, OSX
         <br>            
 	<div>
 		<ul> 
+			<li>
+    			Primarily worked on validation of power load system models and design of load forecasting models. 
+    		</li>
     		<li>
     			Cleaned and aligned raw data from multiple resources including historical load demands, climate data and weekdays/holidays.
     		</li>
@@ -214,7 +229,7 @@ Linux, OSX
 <ul> 
     <li>Implemented VGG and GoogleNet (Inceptionv1) image classification for training, inference and feature extraction.
     </li>
-    <li>Designed a modified Inception network for training on low resolution dataset from scratch (<a href='https://github.com/conan7882/GoogLeNet-Inception#train-the-network-from-scratch-on-cifar-10' target='_blank'>archieved</a> 93.64% accuracy on CIFAR-10 testing set).
+    <li>Designed a modified Inception network for training on low resolution dataset from scratch (<a href='https://github.com/conan7882/GoogLeNet-Inception#train-the-network-from-scratch-on-cifar-10' target='_blank'>achieved</a> 93.64% accuracy on CIFAR-10 testing set).
     </li>
 </ul>
 </div>
@@ -305,7 +320,7 @@ Linux, OSX
 <div id="forams" style="text-align: justify; display: none" markdown="1">
 <ul> 
     <li>
-    	Leaded the creation of a forams image dataset containing 1437 samples and 457 manually segmentation samples.
+    	Leaded the creation of a foraminifera image dataset containing 1437 samples and 457 manually segmentation samples.
     </li>
     <li>
     	Created synthetic images refined by GANs for data augmentation.
@@ -314,7 +329,7 @@ Linux, OSX
     	Developed a coarse-to-fine fully convolutional edge detection network which iteratively applies edge detection modules on predicted edge maps.
     </li>
     <li>
-    Achieved 0.91 edge F1 score on the forams dataset for finding vague edges between forams chambers with similar texture.
+    Achieved 0.91 edge F1 score on the foraminifera dataset for finding vague edges between foraminifera chambers with similar texture.
     </li>
     <li>
     	Designed a topology-based metric to measure the structural difference between two edge maps. 
@@ -326,7 +341,7 @@ Linux, OSX
     	Improved edge F1 score from 0.91 to 0.93 and segmentation IoU from 0.80 to 0.82.
     </li>
     <li>
-    	Built a transfer learning process for identification of six forams species using features extracted from pre-trained VGG, Inception and ResNet.
+    	Built a transfer learning process for identification of six foraminifera species using features extracted from pre-trained VGG, Inception and ResNet.
     </li>
 </ul>
 </div>
