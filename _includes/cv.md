@@ -23,7 +23,7 @@
     <td>
         <strong>M.S. in Electrical Engineering</strong>
         <br>
-      University of Electronic Science and Technology of China, Chengdu, Sichuan, P.R. China
+      University of Electronic Science and Technology of China, Chengdu, P.R. China
     </td>
   </tr>
   <tr>
@@ -31,7 +31,7 @@
     <td>
         <strong>B.S. in Electrical Engineering</strong>
         <br>
-      University of Electronic Science and Technology of China, Chengdu, Sichuan, P.R. China
+      University of Electronic Science and Technology of China, Chengdu, P.R. China
     </td>
   </tr>
 </table>
