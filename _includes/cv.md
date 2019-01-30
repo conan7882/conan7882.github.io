@@ -439,7 +439,7 @@ Linux, OSX
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Selected Publications 
+## <i class="fa fa-chevron-right"></i>Publications 
 
 <!-- <a href="https://github.com/bamos/cv/blob/master/publications/conference.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a> -->
 
@@ -451,10 +451,37 @@ Linux, OSX
 
 <tr>
 <td>
+    <strong>Automated species-level identification of planktic foraminifera using convolutional neural networks, with comparison to human performance</strong><br>
+    R. Mitra, T. Marchitto, <strong>Q. Ge</strong>, B. Zhong, B. Kanakiya, M.S. Cook, J.S. Fehrenbacher, J.D. Ortiz, A. Tripati and E. Lobaton<br>
+    Marine Micropaleontology 2019<br>
+    [1] 
+[<a href='javascript: none'
+    onclick='$("#abs_2019foram").toggle()'>abs</a>] [<a href='https://www.sciencedirect.com/science/article/pii/S0377839818301105' target='_blank'>link</a>] <br>
+    
+<div id="abs_2019foram" style="text-align: justify; display: none" markdown="1">
+Picking foraminifera from sediment samples is an essential, but repetitive and low-reward task that is well-suited for automation. The first step toward building a picking robot is the development of an automated identification system. We use machine learning techniques to train convolutional neural networks (CNNs) to identify six species of extant planktic foraminifera that are widely used by paleoceanographers, and to distinguish the six species from other taxa. We employ CNNs that were previously built and trained for image classification. Foraminiferal training and identification use reflected light microscope digital images taken at 16 different illumination angles using a light-emitting diode (LED) ring. Overall machine accuracy, as a combination of precision and recall, is better than 80% even with limited training. We compare machine performance to that of human pickers (six experts and five novices) by tasking each with the identification of 540 specimens based on images. Experts achieved comparable precision but poorer recall relative to the machine, with an average accuracy of 63%. Novices scored lower than experts on both precision and recall, for an overall accuracy of 53%. The machine achieved fairly uniform performance across the six species, while participants' scores were strongly species-dependent, commensurate with their past experience and expertise. The machine was also less sensitive to specimen orientation (umbilical versus spiral views) than the humans. These results demonstrate that our approach can provide a versatile ‘brain’ for an eventual automated robotic picking system.
+</div>
+
+</td>
+</tr>
+
+<tr>
+<td>
+    <strong>Image Analytics and the Nineteenth-Century Illustrated Newspaper</strong><br>
+    P. Fyfe and <strong>Q. Ge</strong><br>
+    Journal of Cultural Analytics 2018<br>
+    [2] 
+[<a href='http://culturalanalytics.org/2018/10/image-analytics-and-the-nineteenth-century-illustrated-newspaper/' target='_blank'>link</a>] <br>
+    
+</td>
+</tr>
+
+<tr>
+<td>
     <strong>Obstacle Detection in Outdoor Scenes based on Multi-Valued Stereo Disparity Maps</strong><br>
     <strong>Q. Ge</strong> and E. Lobaton<br>
     IEEE Symp. Series Comput. Intell. (SSCI) 2017<br>
-    [1] 
+    [3] 
 [<a href='javascript: none'
     onclick='$("#abs_qian2017car").toggle()'>abs</a>] [<a href='http://conan7882.github.io/data/papers/qian-ssci2017-car.pdf' target='_blank'>pdf</a>] <br>
     
@@ -471,7 +498,7 @@ In this paper, we propose a methodology for robust obstacle detection in outdoor
     <strong>Coarse-to-Fine Foraminifera Image Segmentation through 3D and Deep Features</strong><br>
     <strong>Q. Ge</strong>, B. Zhong, B. Kanakiya, R. Mitra, T. Marchitto, and E. Lobaton<br>
     IEEE Symp. Series Comput. Intell. (SSCI) 2017<br>
-    [2] 
+    [4] 
 [<a href='javascript: none'
     onclick='$("#abs_qian2017foramsseg").toggle()'>abs</a>] [<a href='http://conan7882.github.io/data/papers/qian-ssci2017-foramsseg.pdf' target='_blank'>pdf</a>] <br>
     
@@ -488,7 +515,7 @@ Foraminifera are single-celled marine organisms, which are usually less than 1 m
     <strong>A Comparative Study of Image Classification Algorithms for Foraminifera Identification</strong><br>
     B. Zhong, <strong>Q. Ge</strong>, B. Kanakiya, R. Mitra, T. Marchitto, and E. Lobaton<br>
     IEEE Symp. Series Comput. Intell. (SSCI) 2017<br>
-    [3] 
+    [5] 
 [<a href='javascript: none'
     onclick='$("#abs_boxuan2017foramsclassify").toggle()'>abs</a>] [<a href='http://conan7882.github.io/data/papers/boxuan-ssci2017-foramsclassify.pdf' target='_blank'>pdf</a>] <br>
     
@@ -505,7 +532,7 @@ Identifying Foraminifera (or forams for short) is essential for oceanographic an
     <strong>Consensus-Based Image Segmentation via Topological Persistence</strong><br>
     <strong>Q. Ge</strong> and E. Lobaton<br>
     IEEE Conf. on Comput. Vis. Pattern Recognit. Workshops (CVPRW) 2016<br>
-    [4] 
+    [6] 
 [<a href='javascript: none'
     onclick='$("#abs_qian2016consensus").toggle()'>abs</a>] [<a href='http://conan7882.github.io/data/papers/qian-cvprw2017-consensus.pdf' target='_blank'>pdf</a>] <br>
     
@@ -522,7 +549,7 @@ Image segmentation is one of the most important low-level operation in image pro
     <strong>Robust Multi-Target Tracking in Outdoor Traffic Scenarios via Persistence Topology based Robust Motion Segmentation</strong><br>
     S. Chattopadhyay, <strong>Q. Ge</strong>, C. Wei, and E. Lobaton<br>
     IEEE Global Conf. Signal Inf. Process. (GlobalSIP) 2015<br>
-    [5] 
+    [7] 
 [<a href='javascript: none'
     onclick='$("#abs_somrita2015car").toggle()'>abs</a>] [<a href='http://conan7882.github.io/data/papers/somrita-globalsip2017-car.pdf' target='_blank'>pdf</a>] <br>
     
@@ -539,7 +566,7 @@ In this paper, we present a motion segmentation based robust multi-target tracki
     <strong>Robust Obstacle Segmentation based on Topological Persistence in Outdoor Traffic Scenes</strong><br>
     C. Wei, <strong>Q. Ge</strong>, S. Chattopadhyay, and E. Lobaton<br>
     IEEE Symp. Series Comput. Intell. (SSCI) 2014<br>
-    [6] 
+    [8] 
 [<a href='javascript: none'
     onclick='$("#abs_chunpeng2014car").toggle()'>abs</a>] [<a href='http://conan7882.github.io/data/papers/chunpeng-ssci2014-car.pdf' target='_blank'>pdf</a>] <br>
     
@@ -556,7 +583,7 @@ In this paper, a new methodology for robust seg- mentation of obstacles from ste
     <strong>Manifold Learning Approach to Curve Identification with Applications to Footprint Segmentation</strong><br>
     N. Lokare, <strong>Q. Ge</strong>, W. Snyder, Z. Jewell, S. Allibhai, and E. Lobaton<br>
     IEEE Symp. Series Comput. Intell. (SSCI) 2014<br>
-    [7] 
+    [9] 
 [<a href='javascript: none'
     onclick='$("#abs_namita2014footprint").toggle()'>abs</a>] [<a href='http://conan7882.github.io/data/papers/namita-ssci2014footprint.pdf' target='_blank'>pdf</a>] <br>
     
@@ -573,7 +600,7 @@ Recognition of animals via images of their foot- prints is a non-invasive techni
     <strong>Non-Rigid Image Registration under Non-Deterministic Deformation Bounds</strong><br>
     <strong>Q. Ge</strong>, N. Lokare, and E. Lobaton<br>
     10th International Symposium on Medical Information Processing and Analysis 2014<br>
-    [8] 
+    [10] 
 [<a href='javascript: none'
     onclick='$("#abs_qian2014registration").toggle()'>abs</a>] [<a href='http://conan7882.github.io/data/papers/qian-sipim2014-registration.pdf' target='_blank'>pdf</a>] <br>
     
