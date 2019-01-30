@@ -56,7 +56,8 @@ Linux, OSX
 ## <i class="fa fa-chevron-right"></i>Work Experience
 <table class="table table-hover">
   <tr>
-    <td class="col-md-3">Jan 2018 -- May 2018</td>
+    <td class="col-md-3">Jan 2018 -- May 2018<br>
+    <a><img src='images/projects/load.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
     <td>
         <strong>Research Aid Intern, <a href='https://www.anl.gov/' target='_blank'>Argonne National Laboratory</a>, Lemont, IL</strong>
         <br>            
