@@ -78,9 +78,9 @@ Linux, OSX
 			<li>
     			Primarily worked on validation of power load system models and design of load forecasting models. 
     		</li>
-    		<li>
+<!--     		<li>
     			Cleaned and aligned raw data from multiple resources including historical load demands, climate data and weekdays/holidays.
-    		</li>
+    		</li> -->
     		<li>
     		Designed a Sequence-to-Sequence-based model for load demand forecasting, and proposed a rich feature learning process to improve accuracy and model interpretability.
     		</li>
@@ -133,9 +133,9 @@ Linux, OSX
     		<li>
     			Applied on <a href='https://github.com/conan7882/tf-gans#mnist' target='_blank'>MNIST</a> dataset and <a href='https://github.com/conan7882/tf-gans#celeba' target='_blank'>CelebA</a> human face dataset.
     		</li>
-    		<li>
+<!--     		<li>
     			<a href='https://github.com/conan7882/tf-gans#celeba' target='_blank'>Visualized</a> the interpolation of the learned latent space.
-    		</li>
+    		</li> -->
     		<li>
     			<a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan#celeba' target='_blank'>Generated</a> face images with controlled context, such as emotion, hairstyle and azimuth, in an unsupervised manner by using InfoGAN.
     		</li>
@@ -248,7 +248,7 @@ Linux, OSX
     <div>
     <ul>
     <li>
-    Implemented the fast style transfer to transfer images and videos to a specific artistic style in nearly real-time. Provided <a href='https://github.com/conan7882/fast-style-transfer#result' target='_blank'>five pre-trained models</a> of different styles trained on COCO dataset which can be immediately used for image and video style transfer.
+    Implemented the fast style transfer to transfer images and videos to a specific artistic style in nearly real-time. 
     </li>
     <li>
     Implemented the neural style transfer for image style transfer.
