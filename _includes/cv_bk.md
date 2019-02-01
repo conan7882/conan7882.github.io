@@ -75,16 +75,18 @@ Linux, OSX
         <br>            
 	<div>
 		<ul> 
-		Primarily worked on validation of power system models and applying machine learning algorithms to learn load models. Designed a Sequence-to-Sequence-based model for load demand forecasting, and proposed a rich feature learning process to improve accuracy and model interpretability. Achieved better or comparable performance to state-of-the-art load demand forecasting models on three public dataset.
-<!--			<li>
+			<li>
     			Primarily worked on validation of power load system models and design of load forecasting models. 
     		</li>
+<!--     		<li>
+    			Cleaned and aligned raw data from multiple resources including historical load demands, climate data and weekdays/holidays.
+    		</li> -->
     		<li>
     		Designed a Sequence-to-Sequence-based model for load demand forecasting, and proposed a rich feature learning process to improve accuracy and model interpretability.
     		</li>
     		<li>
     		Achieved better or comparable performance to state-of-the-art load demand forecasting models on three public dataset.
-    		</li>-->
+    		</li>
 		</ul>
 	</div>
       
