@@ -75,6 +75,15 @@ Linux, OSX
         <br>            
 		Primarily worked on validation of power system models and applying machine learning algorithms to learn load models. Designed a RNN based load demand forecasting model and achievel state-of-the-art performance.
 		<br>
+		[<a href='javascript: none' 
+    onclick='$("#tt").toggle()'>details</a>] [<a href='https://conan7882.github.io/data/posters/deformation_poster.pdf' target='_blank'>poster</a>]<br>
+		<div id="tt" style="text-align: justify; display: none" markdown="1">
+<ul> 
+    <li>Developed a topological-based correspondence point matching algorithm under a Lipschitz non-rigid deformation with zero false negative rate and high precision.</li>
+    <li>Extended the point matching to region registration by solving a graph matching problem with geometric constraints.</li>
+    <li>Developed an approach to quantify the uncertainty of the region registration.</li>
+</ul>
+</div>
 		
 <!--[<a href='javascript: none' 
     onclick='$("#load").toggle()'>details</a>] <br>
