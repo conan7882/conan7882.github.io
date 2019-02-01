@@ -73,7 +73,6 @@ Linux, OSX
     <td>
         <strong>Research Aid Intern, <a href='https://www.anl.gov/' target='_blank'>Argonne National Laboratory</a>, Lemont, IL</strong>
         <br>            
-	<div>
 
 		Primarily worked on validation of power system models and applying machine learning algorithms to learn load models. Designed a RNN based load demand forecasting model and achievel state-of-the-art performance.
 		<br>
@@ -87,17 +86,7 @@ Linux, OSX
     <li>Achieved better or comparable performance to state-of-the-art load demand forecasting models on three public dataset.</li>
 
 </ul>
-		<ul> 
-<!--			<li>
-    			Primarily worked on validation of power load system models and design of load forecasting models. 
-    		</li>
-    		<li>
-    		Designed a Sequence-to-Sequence-based model for load demand forecasting, and proposed a rich feature learning process to improve accuracy and model interpretability.
-    		</li>
-    		<li>
-    		Achieved better or comparable performance to state-of-the-art load demand forecasting models on three public dataset.
-    		</li>-->
-		</ul>
+
 	</div>
       
     </td>
