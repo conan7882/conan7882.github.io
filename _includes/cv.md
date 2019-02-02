@@ -75,24 +75,14 @@ Linux, OSX
         <br>            
 		Primarily worked on validation of power system models and applying machine learning algorithms to learn load models. Designed a RNN based load demand forecasting model and achievel state-of-the-art performance.
 		<br>
-		[<a href='javascript: none' 
+[<a href='javascript: none' 
     onclick='$("#load").toggle()'>details</a>] <br>
-		<div id="load" style="text-align: justify; display: none" markdown="1">
-<ul> 
-    <li>Designed a Sequence-to-Sequence-based model for load demand forecasting, and proposed a rich feature learning process to improve accuracy and model interpretability.</li>
-    <li>Achieved better or comparable performance to state-of-the-art load demand forecasting models on three public dataset.</li>
-</ul>
-</div>
-		
-<!--[<a href='javascript: none' 
-    onclick='$("#load").toggle()'>details</a>] <br>
-    
 <div id="load" style="text-align: justify; display: none" markdown="1">
 <ul> 
     <li>Designed a Sequence-to-Sequence-based model for load demand forecasting, and proposed a rich feature learning process to improve accuracy and model interpretability.</li>
     <li>Achieved better or comparable performance to state-of-the-art load demand forecasting models on three public dataset.</li>
 </ul>
-	</div>-->
+</div>
     </td>
   </tr>
 
@@ -106,6 +96,18 @@ Linux, OSX
 <td class="col-md-3"><a><img src='images/projects/yolo.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
 	<strong>YOLOv3 for Object Detection</strong><br>
+	TensorFlow implementation of YOLOv3 object detection for both inference and training. Tensorboard visualization was added to monitor the training. A ready-to-use pre-trained model coverted from official implementation were provided (80 object classes trained on <a http://cocodataset.org/>COCO dataset</a>).
+	<br>
+	[<a href='javascript: none' 
+    onclick='$("#load").toggle()'>details</a>][<a href='https://github.com/conan7882/yolov3' target='_blank'>code</a>]<br>
+	<div id="load" style="text-align: justify; display: none" markdown="1">
+<ul> 
+	<li>Provided an instruction for converting trained model stored in official `.weigth` file to `.npy` file.</li>
+    <li>Provided customized training blocks, including bounding box clustering, data augmentation and multi-scale training.</li>
+    <li><a href='https://github.com/conan7882/YOLOv3/tree/master#train-on-voc2012-dataset-20-classes' target='_blank'>Trained</a> on <a href='http://host.robots.ox.ac.uk/pascal/VOC/' target='_blank'>PASCAL VOC dataset</a> for 20 object classes detection on natural images.</li>
+</ul>
+</div>
+<!--
 	<div>
 		<ul> 
     		<li>
@@ -118,9 +120,9 @@ Linux, OSX
     			<a href='https://github.com/conan7882/YOLOv3/tree/master#train-on-voc2012-dataset-20-classes' target='_blank'>Trained</a> on <a href='http://host.robots.ox.ac.uk/pascal/VOC/' target='_blank'>PASCAL VOC dataset</a> for 20 object classes detection on natural images.
     		</li>
 		</ul>
-	</div>
+	</div>-->
 	
-	[<a href='https://github.com/conan7882/yolov3' target='_blank'>code</a>]<br>
+	
 </td>
 </tr>
 
