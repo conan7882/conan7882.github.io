@@ -96,13 +96,13 @@ Linux, OSX
 <td class="col-md-3"><a><img src='images/projects/yolo.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
 	<strong>YOLOv3 for Object Detection</strong><br>
-	TensorFlow implementation of YOLOv3 object detection for both inference and training. Tensorboard visualization was added to monitor the training. A ready-to-use pre-trained model coverted from official implementation were provided (80 object classes trained on <a href='http://cocodataset.org/'>COCO dataset</a>).
+	TensorFlow implementation of YOLOv3 object detection for both inference and training. A ready-to-use pre-trained model coverted from official implementation were provided (80 object classes trained on <a href='http://cocodataset.org/'>COCO dataset</a>).
 	<br>
 	[<a href='javascript: none' 
     onclick='$("#yolo").toggle()'>details</a>][<a href='https://github.com/conan7882/yolov3' target='_blank'>code</a>]<br>
 	<div id="yolo" style="text-align: justify; display: none" markdown="1">
 <ul> 
-	<li>Provided an <a href='https://github.com/conan7882/yolov3/blob/master/docs/convert.md'>instruction</a> for converting trained model stored in official `.weigth` file to `.npy` file.</li>
+	<li>Provided an <a href='https://github.com/conan7882/yolov3/blob/master/docs/convert.md'>instruction</a> for converting trained model stored in official .weigth file to .npy file.</li>
     <li>Provided customized training blocks, including bounding box clustering, data augmentation and multi-scale training.</li>
     <li><a href='https://github.com/conan7882/YOLOv3/tree/master#train-on-voc2012-dataset-20-classes' target='_blank'>Trained</a> on <a href='http://host.robots.ox.ac.uk/pascal/VOC/' target='_blank'>PASCAL VOC dataset</a> for 20 object classes detection on natural images.</li>
 </ul>
@@ -188,14 +188,8 @@ Linux, OSX
 <td class="col-md-3"><a><img src='images/projects/pix2pix.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
     <strong>Image to Image Translation with Conditional GANs</strong><br>
-    <div>
-    <ul>
-    <li>
-    Reconstructed building facade photos from label maps and generated shoes photos from sketches using pix2pix conditional GANs
-    </li> 
-    </ul>
-    </div>
-    
+    Reconstructed building facade photos from label maps and generated shoes photos from sketches using pix2pix conditional GANs.
+<br>  
     [<a href='https://github.com/conan7882/pix2pix' target='_blank'>code</a>]<br>
 </td>
 </tr>
@@ -204,7 +198,17 @@ Linux, OSX
 <td class="col-md-3"><a><img src='images/projects/cnnviz.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
     <strong>Visualization CNN for Interpretation of Trained Models</strong><br>
-    <div>
+    Provided interpretation of trained CNN models by visualizing the learned features and the image regions where the models pay attention to.
+    	<br>
+	[<a href='javascript: none' 
+    onclick='$("#viz").toggle()'>details</a>][<a href='http://github.com/conan7882/CNN-Visualization' target='_blank'>code</a>]<br>
+	<div id="viz" style="text-align: justify; display: none" markdown="1">
+<ul> 
+	<li>Features were visualized through <a href='https://github.com/conan7882/CNN-Visualization/blob/master/doc/deconv/README.md#results' target='_blank'>Transposed convolutional network</a> and <a href='https://github.com/conan7882/CNN-Visualization/tree/master/doc/guided_backpropagation#results' target='_blank'>guided back propagation</a></li>
+    <li>Attention regions were visualized through <a href='https://github.com/conan7882/CNN-Visualization/tree/master/doc/cam#results' target='_blank'>Class Activation Mapping</a> and <a href='https://github.com/conan7882/CNN-Visualization/tree/master/doc/grad_cam#results' target='_blank'>Gradient-weighted Class Activation Mapping</a>.</li>
+</ul>
+</div>
+    <!--<div>
     <ul>
     <li>
     Provided interpretation of trained CNN models by visualizing the learned features and the image regions where the models pay attention to.
@@ -217,7 +221,7 @@ Linux, OSX
     </li>
     </ul>
     </div>
-	[<a href='http://github.com/conan7882/CNN-Visualization' target='_blank'>code</a>] <br>
+	[<a href='http://github.com/conan7882/CNN-Visualization' target='_blank'>code</a>] <br>-->
 </td>
 </tr>
 	
@@ -226,7 +230,17 @@ Linux, OSX
 <td class="col-md-3"><a><img src='images/projects/ram.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
 <strong>Image Classification using Recurrent Attention Model</strong><br>
-<div>
+Implementation of recurrent visual attention model for image classification. This models reduces the computational complexity by only focusing on a sequence of small regions of the image, which controlled by a RNN.
+<br>
+	[<a href='javascript: none' 
+    onclick='$("#ram").toggle()'>details</a>][<a href='https://github.com/conan7882/recurrent-attention-model' target='_blank'>code</a>]<br>
+	<div id="ram" style="text-align: justify; display: none" markdown="1">
+<ul> 
+	<li>Achieved 97.82% accuracy on 60 x 60 translated MNIST.</li>
+	<li>Provided interpretation of the classification results by <a href='https://github.com/conan7882/recurrent-attention-model#result' target='_blank'>visualizing</a> the attention regions during inference.</li>
+    </ul>
+</div>
+<!--<div>
 <ul> 
     <li>Implemented a recurrent visual attention model for image classification, which reduces the computational complexity by only focusing on a sequence of small regions of the image.
     </li>
@@ -236,6 +250,7 @@ Linux, OSX
 </div>
     
 [<a href='https://github.com/conan7882/recurrent-attention-model' target='_blank'>code</a>] <br>
+-->
     
 </td>
 </tr>
@@ -244,7 +259,19 @@ Linux, OSX
 <td class="col-md-3"><a><img src='images/projects/gnet.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
 <strong>VGG and GoogleNet for Image Classification and Feature Extraction</strong><br>
-<div>
+Implemented VGG and GoogleNet (Inceptionv1) image classification for training, inference and feature extraction.
+<br>
+	[<a href='javascript: none' 
+    onclick='$("#net").toggle()'>details</a>][<a href='https://github.com/conan7882/VGG-cifar' target='_blank'>VGG code</a>] [<a href='https://github.com/conan7882/GoogLeNet-Inception' target='_blank'>GoogleNet code</a>]<br>
+	<div id="net" style="text-align: justify; display: none" markdown="1">
+<ul> 
+	<li>Modified VGG to a fully convolutional network by using a global average pooling layer to accept arbitrary size of images during inference.</li>
+	<li>Designed a modified Inception network for training on low resolution dataset from scratch (<a href='https://github.com/conan7882/GoogLeNet-Inception#train-the-network-from-scratch-on-cifar-10' target='_blank'>achieved</a> 93.64% accuracy on CIFAR-10 testing set).
+</li>
+    </ul>
+</div>
+
+<!--<div>
 <ul> 
     <li>Implemented VGG and GoogleNet (Inceptionv1) image classification for training, inference and feature extraction.
     </li>
@@ -253,18 +280,19 @@ Linux, OSX
 </ul>
 </div>
     
-[<a href='https://github.com/conan7882/VGG-cifar' target='_blank'>VGG</a>] [<a href='https://github.com/conan7882/GoogLeNet-Inception' target='_blank'>GoogleNet</a>]<br>
+[<a href='https://github.com/conan7882/VGG-cifar' target='_blank'>VGG</a>] [<a href='https://github.com/conan7882/GoogLeNet-Inception' target='_blank'>GoogleNet</a>]<br>-->
     
 </td>
 </tr>
 
-
-
 <tr>
 <td class="col-md-3"><a><img src='images/projects/styletrans.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
+
 <td>
     <strong>Image and Video Style Transfer using Fast Style Transfer and Neural Style</strong><br>
-    <div>
+    Implemented the fast style transfer to transfer images and videos to a specific artistic style in nearly real-time, and implemented the neural style transfer for image style transfer.
+    <br>
+<!--    <div>
     <ul>
     <li>
     Implemented the fast style transfer to transfer images and videos to a specific artistic style in nearly real-time. 
@@ -274,9 +302,9 @@ Linux, OSX
     </li>
 
     </ul>
-    </div>
+    </div>-->
     
-    [<a href='http://github.com/conan7882/fast-style-transfer' target='_blank'>fast style</a>] [<a href='https://github.com/conan7882/art_style_transfer_TensorFlow' target='_blank'>neural style</a>]<br>
+    [<a href='http://github.com/conan7882/fast-style-transfer' target='_blank'>fast style code</a>] [<a href='https://github.com/conan7882/art_style_transfer_TensorFlow' target='_blank'>neural style code</a>]<br>
 </td>
 </tr>
 
