@@ -96,13 +96,13 @@ Linux, OSX
 <td class="col-md-3"><a><img src='images/projects/yolo.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
 	<strong>YOLOv3 for Object Detection</strong><br>
-	TensorFlow implementation of YOLOv3 object detection for both inference and training. Tensorboard visualization was added to monitor the training. A ready-to-use pre-trained model coverted from official implementation were provided (80 object classes trained on <a http://cocodataset.org/>COCO dataset</a>).
+	TensorFlow implementation of YOLOv3 object detection for both inference and training. Tensorboard visualization was added to monitor the training. A ready-to-use pre-trained model coverted from official implementation were provided (80 object classes trained on <a href='http://cocodataset.org/'>COCO dataset</a>).
 	<br>
 	[<a href='javascript: none' 
-    onclick='$("#load").toggle()'>details</a>][<a href='https://github.com/conan7882/yolov3' target='_blank'>code</a>]<br>
-	<div id="load" style="text-align: justify; display: none" markdown="1">
+    onclick='$("#yolo").toggle()'>details</a>][<a href='https://github.com/conan7882/yolov3' target='_blank'>code</a>]<br>
+	<div id="yolo" style="text-align: justify; display: none" markdown="1">
 <ul> 
-	<li>Provided an instruction for converting trained model stored in official `.weigth` file to `.npy` file.</li>
+	<li>Provided an <a href='https://github.com/conan7882/yolov3/blob/master/docs/convert.md'>instruction</a> for converting trained model stored in official `.weigth` file to `.npy` file.</li>
     <li>Provided customized training blocks, including bounding box clustering, data augmentation and multi-scale training.</li>
     <li><a href='https://github.com/conan7882/YOLOv3/tree/master#train-on-voc2012-dataset-20-classes' target='_blank'>Trained</a> on <a href='http://host.robots.ox.ac.uk/pascal/VOC/' target='_blank'>PASCAL VOC dataset</a> for 20 object classes detection on natural images.</li>
 </ul>
@@ -130,7 +130,18 @@ Linux, OSX
 <td class="col-md-3"><a><img src='images/projects/gans.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
 	<strong>Implementations of Generative Adversarial Networks (GANs)</strong><br>
-	<div>
+	Implementions of various GANs models for comparison and testing the training behaviors of different GANs. Applied on <a href='https://github.com/conan7882/tf-gans#mnist' target='_blank'>MNIST</a> dataset and <a href='https://github.com/conan7882/tf-gans#celeba' target='_blank'>CelebA</a> human face dataset.
+	<br>
+	[<a href='javascript: none' 
+    onclick='$("#gan").toggle()'>details</a>][<a href='https://github.com/conan7882/tf-gans' target='_blank'>code</a>]<br>
+	<div id="gan" style="text-align: justify; display: none" markdown="1">
+<ul> 
+	<li>Currently, <a href='https://github.com/conan7882/tf-gans/tree/master/docs/dcgan#deep-convolutional-generative-adversarial-networks-dcgan' target='_blank'>DCGAN</a>, <a href='https://github.com/conan7882/tf-gans/tree/master/docs/lsgan' target='_blank'>LSGAN</a> and <a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan' target='_blank'>InfoGAN</a> are implemented and sucessfully trained on both dataset.</li>
+    <li><a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan#celeba' target='_blank'>Generated</a> face images with controlled context, such as emotion, hairstyle and azimuth, in an unsupervised manner by using InfoGAN.</li>
+</ul>
+</div>
+<!--	
+<div>
 		<ul> 
     		<li>
     			Implementions of various GANs models, including <a href='https://github.com/conan7882/tf-gans/tree/master/docs/dcgan#deep-convolutional-generative-adversarial-networks-dcgan' target='_blank'>DCGAN</a>, <a href='https://github.com/conan7882/tf-gans/tree/master/docs/lsgan' target='_blank'>LSGAN</a> and <a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan' target='_blank'>InfoGAN</a> for comparison and analyzing the training behaviors of different GANs.
@@ -138,16 +149,14 @@ Linux, OSX
     		<li>
     			Applied on <a href='https://github.com/conan7882/tf-gans#mnist' target='_blank'>MNIST</a> dataset and <a href='https://github.com/conan7882/tf-gans#celeba' target='_blank'>CelebA</a> human face dataset.
     		</li>
-<!--     		<li>
-    			<a href='https://github.com/conan7882/tf-gans#celeba' target='_blank'>Visualized</a> the interpolation of the learned latent space.
-    		</li> -->
+
     		<li>
     			<a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan#celeba' target='_blank'>Generated</a> face images with controlled context, such as emotion, hairstyle and azimuth, in an unsupervised manner by using InfoGAN.
     		</li>
 		</ul>
 	</div>  
 	
-	[<a href='https://github.com/conan7882/tf-gans' target='_blank'>code</a>] <br>
+	[<a href='https://github.com/conan7882/tf-gans' target='_blank'>code</a>] <br>-->
 </td>
 </tr>
 
@@ -155,7 +164,11 @@ Linux, OSX
 <td class="col-md-3"><a><img src='images/projects/aae.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
 	<strong>Adversarial Autoencoders for Variational Inference and Semi-Supervised Learning</strong><br>
-	<div>
+	Provided an implemented of adversarial autoencoders (AAE) which utilize GAN framework as a <a href='https://github.com/conan7882/adversarial-autoencoders#result' target='_blank'>variational inference</a> algorithm. Applied for <a href='https://github.com/conan7882/adversarial-autoencoders#result-3' target='_blank'>semi-supervised learning</a> and <a href='https://github.com/conan7882/adversarial-autoencoders#result-2' target='_blank'>disentangling style and content of images</a>.
+		<br>
+[<a href='https://github.com/conan7882/tf-gans' target='_blank'>code</a>]<br>
+
+	<!--<div>
 		<ul> 
     	<li>
     		Provided an implemented of adversarial autoencoders (AAE) which utilize GAN framework as a <a href='https://github.com/conan7882/adversarial-autoencoders#result' target='_blank'>variational inference</a> algorithm.
@@ -165,8 +178,9 @@ Linux, OSX
     	</li>
 		</ul>
 	</div>
-    
+  
 	[<a href='https://github.com/conan7882/adversarial-autoencoders' target='_blank'>code</a>] <br> 
+	-->  
 </td>
 </tr>
 
