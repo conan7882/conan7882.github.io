@@ -24,3 +24,6 @@ exclude:
   - update-vendor-deps.sh
   - vendor/bundle
   - vendor/bower.json
+  
+# Google Analytics
+google_analytics: UA—133661657-1
