@@ -1,5 +1,5 @@
  I am an Electrical Engineering Ph.D. candidate at [North Carolina State University](https://www.ncsu.edu/). I am working with [Dr. Edgar Lobaton](http://www.ece.ncsu.edu/people/ejlobato/) at [Active Robotic Sensing (ARoS) Laboratory](http://research.ece.ncsu.edu/aros//) on computer vision and machine learning.
- My current research mainly focuses on robust image segmentation for different applications, including obstacle detection for autonomous car, topology preserving segmentation for learning the shell structure of small organisms and consensus-based natural image segmentation.
+ My current research mainly focuses on robust image segmentation for different applications, including obstacle detection for autonomous car, topology preserving segmentation for learning shell structures of small organisms and consensus-based natural image segmentation.
  I also like digging deep into various deep learning models through implementing the models and reproducing the experiments from research papers.
  
  
@@ -73,7 +73,7 @@ Linux, OSX
     <td>
         <strong>Research Aid Intern, <a href='https://www.anl.gov/' target='_blank'>Argonne National Laboratory</a>, Lemont, IL</strong>
         <br>            
-		Primarily worked on validation of power system models and applying machine learning algorithms to learn load models. Designed a RNN based load demand forecasting model and achievel state-of-the-art performance.
+		Primarily worked on validation of power system models and applying machine learning algorithms to learn load models. Designed a RNN based load demand forecasting model and achieved state-of-the-art performance.
 		<br>
 [<a href='javascript: none' 
     onclick='$("#load").toggle()'>details</a>] <br>
