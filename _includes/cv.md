@@ -136,7 +136,7 @@ Linux, OSX
     onclick='$("#gan").toggle()'>details</a>][<a href='https://github.com/conan7882/tf-gans' target='_blank'>code</a>]<br>
 	<div id="gan" style="text-align: justify; display: none" markdown="1">
 <ul> 
-	<li>Currently, <a href='https://github.com/conan7882/tf-gans/tree/master/docs/dcgan#deep-convolutional-generative-adversarial-networks-dcgan' target='_blank'>DCGAN</a>, <a href='https://github.com/conan7882/tf-gans/tree/master/docs/lsgan' target='_blank'>LSGAN</a> and <a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan' target='_blank'>InfoGAN</a> are implemented and sucessfully trained on both dataset.</li>
+	<li>Currently, <a href='https://github.com/conan7882/tf-gans/tree/master/docs/dcgan#deep-convolutional-generative-adversarial-networks-dcgan' target='_blank'>DCGAN</a>, <a href='https://github.com/conan7882/tf-gans/tree/master/docs/lsgan' target='_blank'>LSGAN</a> and <a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan' target='_blank'>InfoGAN</a> are implemented and sucessfully trained on both dataset.</li>
     <li><a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan#celeba' target='_blank'>Generated</a> face images with controlled context, such as emotion, hairstyle and azimuth, in an unsupervised manner by using InfoGAN.</li>
 </ul>
 </div>
@@ -205,7 +205,7 @@ Linux, OSX
 	<div id="viz" style="text-align: justify; display: none" markdown="1">
 <ul> 
 	<li>Features were visualized through <a href='https://github.com/conan7882/CNN-Visualization/blob/master/doc/deconv/README.md#results' target='_blank'>Transposed convolutional network</a> and <a href='https://github.com/conan7882/CNN-Visualization/tree/master/doc/guided_backpropagation#results' target='_blank'>guided back propagation</a></li>
-    <li>Attention regions were visualized through <a href='https://github.com/conan7882/CNN-Visualization/tree/master/doc/cam#results' target='_blank'>Class Activation Mapping</a> and <a href='https://github.com/conan7882/CNN-Visualization/tree/master/doc/grad_cam#results' target='_blank'>Gradient-weighted Class Activation Mapping</a>.</li>
+    <li>Attention regions were visualized through <a href='https://github.com/conan7882/CNN-Visualization/tree/master/doc/cam#results' target='_blank'>Class Activation Mapping</a> and <a href='https://github.com/conan7882/CNN-Visualization/tree/master/doc/grad_cam#results' target='_blank'>Gradient-weighted Class Activation Mapping</a>.</li>
 </ul>
 </div>
     <!--<div>
@@ -230,7 +230,7 @@ Linux, OSX
 <td class="col-md-3"><a><img src='images/projects/ram.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
 <strong>Image Classification using Recurrent Attention Model</strong><br>
-Implementation of recurrent visual attention model for image classification. This models reduces the computational complexity by only focusing on a sequence of small regions of the image, which controlled by a RNN.
+Implementation of recurrent visual attention model for image classification. This models reduces the computational complexity by only focusing on a sequence of small regions of the image, which controlled by a RNN.
 <br>
 	[<a href='javascript: none' 
     onclick='$("#ram").toggle()'>details</a>][<a href='https://github.com/conan7882/recurrent-attention-model' target='_blank'>code</a>]<br>
