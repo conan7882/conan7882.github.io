@@ -2,10 +2,6 @@
  My current research mainly focuses on robust image segmentation for different applications, including obstacle detection for autonomous car, topology preserving segmentation for learning the shell structure of small organisms and consensus-based natural image segmentation.
  I also like digging deep into various deep learning models through implementing the models and reproducing the experiments from research papers.
  
- 
- 
- 
-
 
 ## <i class="fa fa-chevron-right"></i> Education
 
@@ -106,23 +102,7 @@ Linux, OSX
     <li>Provided customized training blocks, including bounding box clustering, data augmentation and multi-scale training.</li>
     <li><a href='https://github.com/conan7882/YOLOv3/tree/master#train-on-voc2012-dataset-20-classes' target='_blank'>Trained</a> on <a href='http://host.robots.ox.ac.uk/pascal/VOC/' target='_blank'>PASCAL VOC dataset</a> for 20 object classes detection on natural images.</li>
 </ul>
-</div>
-<!--
-	<div>
-		<ul> 
-    		<li>
-    			TensorFlow implementation of YOLOv3 object detection for both inference and training.
-    		</li>
-    		<li>
-    			Provided customized training blocks, including bounding box clustering, data augmentation and multi-scale training.
-    		</li>
-    		<li>
-    			<a href='https://github.com/conan7882/YOLOv3/tree/master#train-on-voc2012-dataset-20-classes' target='_blank'>Trained</a> on <a href='http://host.robots.ox.ac.uk/pascal/VOC/' target='_blank'>PASCAL VOC dataset</a> for 20 object classes detection on natural images.
-    		</li>
-		</ul>
-	</div>-->
-	
-	
+</div>	
 </td>
 </tr>
 
@@ -141,22 +121,7 @@ Linux, OSX
 </ul>
 </div>
 <!--	
-<div>
-		<ul> 
-    		<li>
-    			Implementions of various GANs models, including <a href='https://github.com/conan7882/tf-gans/tree/master/docs/dcgan#deep-convolutional-generative-adversarial-networks-dcgan' target='_blank'>DCGAN</a>, <a href='https://github.com/conan7882/tf-gans/tree/master/docs/lsgan' target='_blank'>LSGAN</a> and <a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan' target='_blank'>InfoGAN</a> for comparison and analyzing the training behaviors of different GANs.
-    		</li>
-    		<li>
-    			Applied on <a href='https://github.com/conan7882/tf-gans#mnist' target='_blank'>MNIST</a> dataset and <a href='https://github.com/conan7882/tf-gans#celeba' target='_blank'>CelebA</a> human face dataset.
-    		</li>
-
-    		<li>
-    			<a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan#celeba' target='_blank'>Generated</a> face images with controlled context, such as emotion, hairstyle and azimuth, in an unsupervised manner by using InfoGAN.
-    		</li>
-		</ul>
-	</div>  
-	
-	[<a href='https://github.com/conan7882/tf-gans' target='_blank'>code</a>] <br>-->
+-->
 </td>
 </tr>
 
@@ -164,23 +129,11 @@ Linux, OSX
 <td class="col-md-3"><a><img src='images/projects/aae.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
 	<strong>Adversarial Autoencoders for Variational Inference and Semi-Supervised Learning</strong><br>
-	Provided an implemented of adversarial autoencoders (AAE) which utilize GAN framework as a <a href='https://github.com/conan7882/adversarial-autoencoders#result' target='_blank'>variational inference</a> algorithm. Applied for <a href='https://github.com/conan7882/adversarial-autoencoders#result-3' target='_blank'>semi-supervised learning</a> and <a href='https://github.com/conan7882/adversarial-autoencoders#result-2' target='_blank'>disentangling style and content of images</a>.
+	Provided an implemented of adversarial autoencoders (AAE) which utilize the GAN framework as a <a href='https://github.com/conan7882/adversarial-autoencoders#result' target='_blank'>variational inference</a> algorithm. Applied for <a href='https://github.com/conan7882/adversarial-autoencoders#result-3' target='_blank'>semi-supervised learning</a> and <a href='https://github.com/conan7882/adversarial-autoencoders#result-2' target='_blank'>disentangling style and content of images</a>.
 		<br>
 [<a href='https://github.com/conan7882/adversarial-autoencoders' target='_blank'>code</a>]<br>
 
-	<!--<div>
-		<ul> 
-    	<li>
-    		Provided an implemented of adversarial autoencoders (AAE) which utilize GAN framework as a <a href='https://github.com/conan7882/adversarial-autoencoders#result' target='_blank'>variational inference</a> algorithm.
-    	</li>
-    	<li>
-    		Applied for <a href='https://github.com/conan7882/adversarial-autoencoders#result-3' target='_blank'>semi-supervised learning</a> and <a href='https://github.com/conan7882/adversarial-autoencoders#result-2' target='_blank'>disentangling style and content of images</a>.
-    	</li>
-		</ul>
-	</div>
-  
-	[<a href='https://github.com/conan7882/adversarial-autoencoders' target='_blank'>code</a>] <br> 
-	-->  
+ 
 </td>
 </tr>
 
@@ -288,18 +241,14 @@ Implemented VGG and GoogleNet (Inceptionv1) image classification for training, i
 <tr>
 <td class="col-md-3"><a><img src='images/projects/styletrans.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 
+
 <td>
     <strong>Image and Video Style Transfer using Fast Style Transfer and Neural Style</strong><br>
     Implemented the fast style transfer to transfer images and videos to a specific artistic style in nearly real-time, and implemented the neural style transfer for image style transfer.
     <br>
 <!--    <div>
     <ul>
-    <li>
-    Implemented the fast style transfer to transfer images and videos to a specific artistic style in nearly real-time. 
-    </li>
-    <li>
-    Implemented the neural style transfer for image style transfer.
-    </li>
+
 
     </ul>
     </div>-->
@@ -309,39 +258,16 @@ Implemented VGG and GoogleNet (Inceptionv1) image classification for training, i
 </tr>
 
 
-<!--<tr>
-<td class="col-md-3"><a><img src='images/projects/tensorproj.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
-<td>
-    <strong>Other TensorFlow Projects</strong><br>
-    There are some other projects based on TensorFlow framework, including<br>
-    
-<div>
-<ul> 
-    <li>Implementation of Deep Convolutional Generative Adversarial Networks and experiments on MNIST and CIFAR10 dataset [<a href='http://github.com/conan7882/tensorflow-DCGAN' target='_blank'>code</a>] </li> <li>Fully Convolutional Network for image segmentation [<a href='http://github.com/conan7882/tensorflow-FCN' target='_blank'>code</a>] </li> <li>Very Deep Convolutional Networks for Large-Scale Image Recognition (VGG) [<a href='http://github.com/conan7882/VGG-tensorflow' target='_blank'>code</a>] </li>
-</ul>
-</div>
-    <br>
-    
-</td>
-</tr>-->
+
+<!--
+<tr>
+
+</tr>
+-->
 
 
 
-<!--<tr>
-<td class="col-md-3"><a><img src='images/projects/courseproj.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
-<td>
-    <strong>Selected Course Projects</strong><br>
-    I have done several course projects at NCSU, including<br>
-    
-<div>
-<ul> 
-    <li>Leaf classification based on visual features using PCA and k-means (2011) </li> <li>Face recognition based on eigenface using multilayer perceptron (MLP) (2012) </li> <li>Human activity recognition using hidden Markov model (HMM) (2015) </li>
-</ul>
-</div>
-<br>
-    
-</td>
-</tr>-->
+
 
 
 
