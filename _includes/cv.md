@@ -1,7 +1,5 @@
- I am an Electrical Engineering Ph.D. candidate at [North Carolina State University](https://www.ncsu.edu/). I am working with [Dr. Edgar Lobaton](http://www.ece.ncsu.edu/people/ejlobato/) at [Active Robotic Sensing (ARoS) Laboratory](http://research.ece.ncsu.edu/aros//) on computer vision and machine learning.
- My current research mainly focuses on robust image segmentation for different applications, including obstacle detection for autonomous car, topology preserving segmentation for learning the shell structure of small organisms and consensus-based natural image segmentation.
- I also like digging deep into various deep learning models through implementing the models and reproducing the experiments from research papers.
- 
+
+I am an Electrical Engineering Ph.D. candidate at [North Carolina State University](https://www.ncsu.edu/). I am working with [Dr. Edgar Lobaton](http://www.ece.ncsu.edu/people/ejlobato/) at [Active Robotic Sensing (ARoS) Laboratory](http://research.ece.ncsu.edu/aros//) on computer vision and machine learning. My current research mainly focuses on robust image segmentation for different applications, including obstacle detection for autonomous cars, topology preserving segmentation for learning the shell structure of small organisms, and consensus-based natural image segmentation. I also like digging into various deep learning models by implementing models and reproducing experiments of state-of-the-art research.
 
 ## <i class="fa fa-chevron-right"></i> Education
 
@@ -92,7 +90,7 @@ Linux, OSX
 <td class="col-md-3"><a><img src='images/projects/yolo.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
 	<strong>YOLOv3 for Object Detection</strong><br>
-	TensorFlow implementation of YOLOv3 object detection for both inference and training. A ready-to-use pre-trained model coverted from official implementation were provided (80 object classes trained on <a href='http://cocodataset.org/'>COCO dataset</a>).
+	TensorFlow implementation of YOLOv3 object detection for both inference and training. A ready-to-use pre-trained model converted from official implementation were provided (80 object classes trained on <a href='http://cocodataset.org/'>COCO dataset</a>).
 	<br>
 	[<a href='javascript: none' 
     onclick='$("#yolo").toggle()'>details</a>][<a href='https://github.com/conan7882/yolov3' target='_blank'>code</a>]<br>
@@ -183,7 +181,7 @@ Linux, OSX
 <td class="col-md-3"><a><img src='images/projects/ram.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
 <strong>Image Classification using Recurrent Attention Model</strong><br>
-Implementation of recurrent visual attention model for image classification. This models reduces the computational complexity by only focusing on a sequence of small regions of the image, which controlled by a RNN.
+Implementation of recurrent visual attention model for image classification. This model reduces the computational complexity by only focusing on a sequence of small regions of the image, which is controlled by a RNN.
 <br>
 	[<a href='javascript: none' 
     onclick='$("#ram").toggle()'>details</a>][<a href='https://github.com/conan7882/recurrent-attention-model' target='_blank'>code</a>]<br>
@@ -282,7 +280,7 @@ Implemented VGG and GoogleNet (Inceptionv1) image classification for training, i
 <td class="col-md-3"><a><img src='images/projects/forams.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
     <strong>A Visual System for Autonomous Foraminifera Identification</strong><br>  
-    Foraminifera are single-celled organisms with shells, which are useful in petroleum exploration, biostratigraphy, paleoecology and paleobiogeography.
+    Foraminifera are single-celled organisms with shells which are useful in petroleum exploration, biostratigraphy, paleoecology and paleobiogeography.
     We developed an automated system for identification of foraminifera species to reduce the human efforts on manually picking thousands of samples from ocean sediments.
     We also created a foraminifera image dataset and proposed novel robust edge detection algorithms on this dataset.
     <br>
@@ -365,10 +363,10 @@ Implemented VGG and GoogleNet (Inceptionv1) image classification for training, i
 <tr>
 <td class="col-md-3"><a><img src='images/projects/newspaper.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
-    <strong>Exploring Victorian Illustrated Newspapers Data through Computer Vision Techniques</strong><br>
-    The aim of this project is to answer how can computer vision and image processing techniques be adapted for large-scale interpretation of historical materials.
+    <strong>Exploring Victorian Illustrated Newspaper Data through Computer Vision Techniques</strong><br>
+    The aim of this project is to explore how computer vision and image processing techniques can be adapted for large-scale interpretation of historical materials.
 <!--    The aim of this project is to suggest how computer vision techniques can reveal large-scale patterns in the visual language of the nineteenth century, opening further research questions about historical visual culture and graphic knowledge.-->
-    We applied several computer vision techniques on a set of nineteenth-century illustrated British newspapers to explore and test the feasibility of these techniques for analyzing large collections of these periodical illustrations.
+    We applied several computer vision techniques on a set of nineteenth-century illustrated British newspapers to test the feasibility of these techniques for analyzing large collections of historical illustrations.
     <br>
     
     
