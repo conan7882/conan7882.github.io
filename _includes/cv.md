@@ -1,11 +1,5 @@
- I am an Electrical Engineering Ph.D. candidate at [North Carolina State University](https://www.ncsu.edu/). I am working with [Dr. Edgar Lobaton](http://www.ece.ncsu.edu/people/ejlobato/) at [Active Robotic Sensing (ARoS) Laboratory](http://research.ece.ncsu.edu/aros//) on computer vision and machine learning.
- My current research mainly focuses on robust image segmentation for different applications, including obstacle detection for autonomous car, topology preserving segmentation for learning shell structures of small organisms and consensus-based natural image segmentation.
- I also like digging deep into various deep learning models through implementing the models and reproducing the experiments from research papers.
- 
- 
- 
- 
 
+I am an Electrical Engineering Ph.D. candidate at [North Carolina State University](https://www.ncsu.edu/). I am working with [Dr. Edgar Lobaton](http://www.ece.ncsu.edu/people/ejlobato/) at [Active Robotic Sensing (ARoS) Laboratory](http://research.ece.ncsu.edu/aros//) on computer vision and machine learning. My current research mainly focuses on robust image segmentation for different applications, including obstacle detection for autonomous cars, topology preserving segmentation for learning the shell structure of small organisms, and consensus-based natural image segmentation. I also like digging into various deep learning models by implementing models and reproducing experiments of state-of-the-art research.
 
 ## <i class="fa fa-chevron-right"></i> Education
 
@@ -96,7 +90,7 @@ Linux, OSX
 <td class="col-md-3"><a><img src='images/projects/yolo.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
 	<strong>YOLOv3 for Object Detection</strong><br>
-	TensorFlow implementation of YOLOv3 object detection for both inference and training. A ready-to-use pre-trained model coverted from official implementation were provided (80 object classes trained on <a href='http://cocodataset.org/'>COCO dataset</a>).
+	TensorFlow implementation of YOLOv3 object detection for both inference and training. A ready-to-use pre-trained model converted from official implementation were provided (80 object classes trained on <a href='http://cocodataset.org/'>COCO dataset</a>).
 	<br>
 	[<a href='javascript: none' 
     onclick='$("#yolo").toggle()'>details</a>][<a href='https://github.com/conan7882/yolov3' target='_blank'>code</a>]<br>
@@ -106,23 +100,7 @@ Linux, OSX
     <li>Provided customized training blocks, including bounding box clustering, data augmentation and multi-scale training.</li>
     <li><a href='https://github.com/conan7882/YOLOv3/tree/master#train-on-voc2012-dataset-20-classes' target='_blank'>Trained</a> on <a href='http://host.robots.ox.ac.uk/pascal/VOC/' target='_blank'>PASCAL VOC dataset</a> for 20 object classes detection on natural images.</li>
 </ul>
-</div>
-<!--
-	<div>
-		<ul> 
-    		<li>
-    			TensorFlow implementation of YOLOv3 object detection for both inference and training.
-    		</li>
-    		<li>
-    			Provided customized training blocks, including bounding box clustering, data augmentation and multi-scale training.
-    		</li>
-    		<li>
-    			<a href='https://github.com/conan7882/YOLOv3/tree/master#train-on-voc2012-dataset-20-classes' target='_blank'>Trained</a> on <a href='http://host.robots.ox.ac.uk/pascal/VOC/' target='_blank'>PASCAL VOC dataset</a> for 20 object classes detection on natural images.
-    		</li>
-		</ul>
-	</div>-->
-	
-	
+</div>	
 </td>
 </tr>
 
@@ -136,27 +114,12 @@ Linux, OSX
     onclick='$("#gan").toggle()'>details</a>][<a href='https://github.com/conan7882/tf-gans' target='_blank'>code</a>]<br>
 	<div id="gan" style="text-align: justify; display: none" markdown="1">
 <ul> 
-	<li>Currently, <a href='https://github.com/conan7882/tf-gans/tree/master/docs/dcgan#deep-convolutional-generative-adversarial-networks-dcgan' target='_blank'>DCGAN</a>, <a href='https://github.com/conan7882/tf-gans/tree/master/docs/lsgan' target='_blank'>LSGAN</a> and <a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan' target='_blank'>InfoGAN</a> are implemented and sucessfully trained on both dataset.</li>
+	<li>Currently, <a href='https://github.com/conan7882/tf-gans/tree/master/docs/dcgan#deep-convolutional-generative-adversarial-networks-dcgan' target='_blank'>DCGAN</a>, <a href='https://github.com/conan7882/tf-gans/tree/master/docs/lsgan' target='_blank'>LSGAN</a> and <a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan' target='_blank'>InfoGAN</a> are implemented and sucessfully trained on both dataset.</li>
     <li><a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan#celeba' target='_blank'>Generated</a> face images with controlled context, such as emotion, hairstyle and azimuth, in an unsupervised manner by using InfoGAN.</li>
 </ul>
 </div>
 <!--	
-<div>
-		<ul> 
-    		<li>
-    			Implementions of various GANs models, including <a href='https://github.com/conan7882/tf-gans/tree/master/docs/dcgan#deep-convolutional-generative-adversarial-networks-dcgan' target='_blank'>DCGAN</a>, <a href='https://github.com/conan7882/tf-gans/tree/master/docs/lsgan' target='_blank'>LSGAN</a> and <a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan' target='_blank'>InfoGAN</a> for comparison and analyzing the training behaviors of different GANs.
-    		</li>
-    		<li>
-    			Applied on <a href='https://github.com/conan7882/tf-gans#mnist' target='_blank'>MNIST</a> dataset and <a href='https://github.com/conan7882/tf-gans#celeba' target='_blank'>CelebA</a> human face dataset.
-    		</li>
-
-    		<li>
-    			<a href='https://github.com/conan7882/tf-gans/tree/master/docs/infogan#celeba' target='_blank'>Generated</a> face images with controlled context, such as emotion, hairstyle and azimuth, in an unsupervised manner by using InfoGAN.
-    		</li>
-		</ul>
-	</div>  
-	
-	[<a href='https://github.com/conan7882/tf-gans' target='_blank'>code</a>] <br>-->
+-->
 </td>
 </tr>
 
@@ -164,23 +127,11 @@ Linux, OSX
 <td class="col-md-3"><a><img src='images/projects/aae.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
 	<strong>Adversarial Autoencoders for Variational Inference and Semi-Supervised Learning</strong><br>
-	Provided an implemented of adversarial autoencoders (AAE) which utilize GAN framework as a <a href='https://github.com/conan7882/adversarial-autoencoders#result' target='_blank'>variational inference</a> algorithm. Applied for <a href='https://github.com/conan7882/adversarial-autoencoders#result-3' target='_blank'>semi-supervised learning</a> and <a href='https://github.com/conan7882/adversarial-autoencoders#result-2' target='_blank'>disentangling style and content of images</a>.
+	Provided an implemented of adversarial autoencoders (AAE) which utilize the GAN framework as a <a href='https://github.com/conan7882/adversarial-autoencoders#result' target='_blank'>variational inference</a> algorithm. Applied for <a href='https://github.com/conan7882/adversarial-autoencoders#result-3' target='_blank'>semi-supervised learning</a> and <a href='https://github.com/conan7882/adversarial-autoencoders#result-2' target='_blank'>disentangling style and content of images</a>.
 		<br>
 [<a href='https://github.com/conan7882/adversarial-autoencoders' target='_blank'>code</a>]<br>
 
-	<!--<div>
-		<ul> 
-    	<li>
-    		Provided an implemented of adversarial autoencoders (AAE) which utilize GAN framework as a <a href='https://github.com/conan7882/adversarial-autoencoders#result' target='_blank'>variational inference</a> algorithm.
-    	</li>
-    	<li>
-    		Applied for <a href='https://github.com/conan7882/adversarial-autoencoders#result-3' target='_blank'>semi-supervised learning</a> and <a href='https://github.com/conan7882/adversarial-autoencoders#result-2' target='_blank'>disentangling style and content of images</a>.
-    	</li>
-		</ul>
-	</div>
-  
-	[<a href='https://github.com/conan7882/adversarial-autoencoders' target='_blank'>code</a>] <br> 
-	-->  
+ 
 </td>
 </tr>
 
@@ -205,7 +156,7 @@ Linux, OSX
 	<div id="viz" style="text-align: justify; display: none" markdown="1">
 <ul> 
 	<li>Features were visualized through <a href='https://github.com/conan7882/CNN-Visualization/blob/master/doc/deconv/README.md#results' target='_blank'>Transposed convolutional network</a> and <a href='https://github.com/conan7882/CNN-Visualization/tree/master/doc/guided_backpropagation#results' target='_blank'>guided back propagation</a></li>
-    <li>Attention regions were visualized through <a href='https://github.com/conan7882/CNN-Visualization/tree/master/doc/cam#results' target='_blank'>Class Activation Mapping</a> and <a href='https://github.com/conan7882/CNN-Visualization/tree/master/doc/grad_cam#results' target='_blank'>Gradient-weighted Class Activation Mapping</a>.</li>
+    <li>Attention regions were visualized through <a href='https://github.com/conan7882/CNN-Visualization/tree/master/doc/cam#results' target='_blank'>Class Activation Mapping</a> and <a href='https://github.com/conan7882/CNN-Visualization/tree/master/doc/grad_cam#results' target='_blank'>Gradient-weighted Class Activation Mapping</a>.</li>
 </ul>
 </div>
     <!--<div>
@@ -230,7 +181,7 @@ Linux, OSX
 <td class="col-md-3"><a><img src='images/projects/ram.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
 <strong>Image Classification using Recurrent Attention Model</strong><br>
-Implementation of recurrent visual attention model for image classification. This models reduces the computational complexity by only focusing on a sequence of small regions of the image, which controlled by a RNN.
+Implementation of recurrent visual attention model for image classification. This model reduces the computational complexity by only focusing on a sequence of small regions of the image, which is controlled by a RNN.
 <br>
 	[<a href='javascript: none' 
     onclick='$("#ram").toggle()'>details</a>][<a href='https://github.com/conan7882/recurrent-attention-model' target='_blank'>code</a>]<br>
@@ -288,18 +239,14 @@ Implemented VGG and GoogleNet (Inceptionv1) image classification for training, i
 <tr>
 <td class="col-md-3"><a><img src='images/projects/styletrans.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 
+
 <td>
     <strong>Image and Video Style Transfer using Fast Style Transfer and Neural Style</strong><br>
     Implemented the fast style transfer to transfer images and videos to a specific artistic style in nearly real-time, and implemented the neural style transfer for image style transfer.
     <br>
 <!--    <div>
     <ul>
-    <li>
-    Implemented the fast style transfer to transfer images and videos to a specific artistic style in nearly real-time. 
-    </li>
-    <li>
-    Implemented the neural style transfer for image style transfer.
-    </li>
+
 
     </ul>
     </div>-->
@@ -309,39 +256,16 @@ Implemented VGG and GoogleNet (Inceptionv1) image classification for training, i
 </tr>
 
 
-<!--<tr>
-<td class="col-md-3"><a><img src='images/projects/tensorproj.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
-<td>
-    <strong>Other TensorFlow Projects</strong><br>
-    There are some other projects based on TensorFlow framework, including<br>
-    
-<div>
-<ul> 
-    <li>Implementation of Deep Convolutional Generative Adversarial Networks and experiments on MNIST and CIFAR10 dataset [<a href='http://github.com/conan7882/tensorflow-DCGAN' target='_blank'>code</a>] </li> <li>Fully Convolutional Network for image segmentation [<a href='http://github.com/conan7882/tensorflow-FCN' target='_blank'>code</a>] </li> <li>Very Deep Convolutional Networks for Large-Scale Image Recognition (VGG) [<a href='http://github.com/conan7882/VGG-tensorflow' target='_blank'>code</a>] </li>
-</ul>
-</div>
-    <br>
-    
-</td>
-</tr>-->
+
+<!--
+<tr>
+
+</tr>
+-->
 
 
 
-<!--<tr>
-<td class="col-md-3"><a><img src='images/projects/courseproj.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
-<td>
-    <strong>Selected Course Projects</strong><br>
-    I have done several course projects at NCSU, including<br>
-    
-<div>
-<ul> 
-    <li>Leaf classification based on visual features using PCA and k-means (2011) </li> <li>Face recognition based on eigenface using multilayer perceptron (MLP) (2012) </li> <li>Human activity recognition using hidden Markov model (HMM) (2015) </li>
-</ul>
-</div>
-<br>
-    
-</td>
-</tr>-->
+
 
 
 
@@ -356,7 +280,7 @@ Implemented VGG and GoogleNet (Inceptionv1) image classification for training, i
 <td class="col-md-3"><a><img src='images/projects/forams.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
     <strong>A Visual System for Autonomous Foraminifera Identification</strong><br>  
-    Foraminifera are single-celled organisms with shells, which are useful in petroleum exploration, biostratigraphy, paleoecology and paleobiogeography.
+    Foraminifera are single-celled organisms with shells which are useful in petroleum exploration, biostratigraphy, paleoecology and paleobiogeography.
     We developed an automated system for identification of foraminifera species to reduce the human efforts on manually picking thousands of samples from ocean sediments.
     We also created a foraminifera image dataset and proposed novel robust edge detection algorithms on this dataset.
     <br>
@@ -439,10 +363,10 @@ Implemented VGG and GoogleNet (Inceptionv1) image classification for training, i
 <tr>
 <td class="col-md-3"><a><img src='images/projects/newspaper.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
-    <strong>Exploring Victorian Illustrated Newspapers Data through Computer Vision Techniques</strong><br>
-    The aim of this project is to answer how can computer vision and image processing techniques be adapted for large-scale interpretation of historical materials.
+    <strong>Exploring Victorian Illustrated Newspaper Data through Computer Vision Techniques</strong><br>
+    The aim of this project is to explore how computer vision and image processing techniques can be adapted for large-scale interpretation of historical materials.
 <!--    The aim of this project is to suggest how computer vision techniques can reveal large-scale patterns in the visual language of the nineteenth century, opening further research questions about historical visual culture and graphic knowledge.-->
-    We applied several computer vision techniques on a set of nineteenth-century illustrated British newspapers to explore and test the feasibility of these techniques for analyzing large collections of these periodical illustrations.
+    We applied several computer vision techniques on a set of nineteenth-century illustrated British newspapers to test the feasibility of these techniques for analyzing large collections of historical illustrations.
     <br>
     
     

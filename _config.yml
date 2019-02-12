@@ -3,6 +3,7 @@ url: http://conan7882.github.io
 destination: ./_site
 # twitter: brandondamos
 lsi: false
+# safe: true
 port: 4000
 markdown: kramdown
 future: true
@@ -24,3 +25,6 @@ exclude:
   - update-vendor-deps.sh
   - vendor/bundle
   - vendor/bower.json
+  
+# # Google Analytics
+# google_analytics: UA—133661657-1
