@@ -104,6 +104,21 @@ Linux, OSX
 </td>
 </tr>
 
+
+<tr>
+<td class="col-md-3"><a><img src='images/projects/triplet.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
+<td>
+	<strong>Person Re-Identification with Triplet Loss</strong><br>
+	TensorFlow implementation of person re-identification using triplet loss with batch hard mining training strategy. Re-ranking was used during person image retrieval.
+	<br>
+	[<a href='https://github.com/conan7882/triplet-loss' target='_blank'>code</a>]<br>
+	
+</td>
+</tr>
+
+
+
+
 <tr>
 <td class="col-md-3"><a><img src='images/projects/gans.png'  onerror="this.onerror=null;this.src='images/projects/alt.jpg';"/></a> </td>
 <td>
