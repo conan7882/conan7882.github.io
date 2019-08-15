@@ -5,7 +5,7 @@ I am an Electrical Engineering Ph.D. candidate at [North Carolina State Universi
 
 <table class="table table-hover">
   <tr>
-    <td class="col-md-3">May 2019 (expected)</td>
+    <td class="col-md-3">Aug 2019</td>
     <td>
         <strong>Ph.D. in Electrical Engineering</strong>
         <br>
